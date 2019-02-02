@@ -1,0 +1,4 @@
+baseURL = "http://rilopez.com/"
+languageCode = "en-us"
+title = "Isaac Lopez"
+theme = "yinyang"
