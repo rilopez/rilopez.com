@@ -1,4 +1,92 @@
 baseURL = "http://rilopez.com/"
 languageCode = "en-us"
 title = "Isaac Lopez"
-theme = "yinyang"
+theme = "coder"
+
+paginate = 20
+
+pygmentsstyle = "b2"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+pygmentsUseClasses = true
+
+disqusShortname = ""
+
+[params]
+    author = "Isaac Lopez"
+    description = "Isaac's personal website"
+    keywords = "blog,developer,personal"
+    info = "Learner, Educator & Software Engineer"
+    avatarurl = "images/ilopez-headshot.jpg"
+    footercontent = "Carpe diem."
+    fixedbarContent = "Do you want to know something?→"
+    fixedbarContentAfter = "The ego is the enemy"
+
+    hideCredits = true
+    hideCopyright = false
+
+    snsShare = false
+
+    thumbnail = "images/tn.png"
+
+    # Custom CSS
+    custom_css = ['css/main.css']
+
+    # Alignment of Mobile Menu items
+    itemscentered = true
+
+    # RTL support
+    rtl = false
+
+    langseparator = "|"
+
+[[params.social]]
+    name = "Github"
+    weight = 1
+    url = "https://github.com/rilopez/"
+[[params.social]]
+    name = "Twitter"
+    weight = 2
+    url = "https://twitter.com/rilopezp/"
+[[params.social]]
+    name = "LinkedIn"
+    weight = 3
+    url = "https://www.linkedin.com/in/ilopez/"
+
+[languages]
+    [languages.en]
+        languagecode = "en"
+        languagename = "English" # The language name to be displayed in the selector.
+        title = "Isaac Lopez"
+
+        # You can configure the theme parameter for each language.
+        [languages.en.params]
+            author = "Isaac Lopez"
+            info = "Learner, Educator & Software Engineer"
+            description = "Isaac Lopez's personal website"
+            keywords = "blog,developer,personal"
+
+        [languages.en.menu] # It is possible to change the menu too.
+
+            [[languages.en.menu.main]]
+                name = "About"
+                weight = 1.0
+                url = "about"
+
+            [[languages.en.menu.main]]
+                name = "Blog"
+                weight = 2.0
+                url = "posts"
+
+            [[languages.en.menu.main]]
+                name = "Books"
+                weight = 3
+                url = "books"
+            [[languages.en.menu.main]]
+                name = "Contact"
+                weight = 5
+                url = "contact"
+
+
+    [languages.ja]
+    

@@ -1,0 +1,18 @@
+body{
+  font-family: "Arvo", Arial, Helvetica, sans-serif;
+  letter-spacing: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.navigation,
+.navigation a{
+  text-transform: none;
+  letter-spacing: inherit;
+}
+
+

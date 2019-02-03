@@ -19,7 +19,11 @@ git commit -m "$msg"
 
 # Push source and build repos.
 git push origin master
-
+cd public 
 rsync --progress --delete -rave "ssh "  \
     --exclude cgi-bin  \    
-    public  rilopezc@rilopez.com:$REMOTE_DEST
+    .  rilopezc@rilopez.com:$REMOTE_DEST
+cd 
+
+
+rsync -avz --delete --progress  public/ rilopezc@rilopez.com:~/public_html

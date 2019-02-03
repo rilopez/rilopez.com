@@ -1,0 +1,23 @@
+{{ define "og-title" }}
+  {{ .Title }} - {{ .Site.Title }}
+{{ end }}
+{{ define "title" }}
+  {{ .Title }} - {{ .Site.Title }}
+{{ end }}
+
+{{ define "content" }}
+    <section class="container list">
+      <h1 class="title">{{ .Title }}</h1>
+
+        {{ .Content }}
+      <ul>
+        {{ range .Paginator.Pages }}
+        <li>
+          <span>{{ .Date.Format "January 2, 2006" }}</span><a href="{{ .URL }}">{{ .Title }}</a>
+        </li>
+        {{ end }}
+      </ul>
+      {{ partial "pagination.html" . }}
+    </section>
+
+{{ end }}
