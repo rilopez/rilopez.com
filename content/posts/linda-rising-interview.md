@@ -1,7 +1,7 @@
 ---
 title: "Linda Rising Interview"
 date: 2016-06-22T12:30:00Z
-draft: true
+tags: [agile, interview]
 ---
 
 I read the book [fearless change]({{< ref "books/fearless-change.md" >}}) almost 8 years ago and since then I have been a big follower 

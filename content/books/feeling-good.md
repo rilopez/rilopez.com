@@ -1,10 +1,8 @@
 ---
 title: "Feeling good. The new mood therapy "
 date: 2017-05-03T05:10:57Z
-author: David D. Burns
-subject: Cognitive therapy
+authors: ["David D. Burns"]
 isbn: 9780380810338    
-draft: false
 tags: [psychology]
 ---
 

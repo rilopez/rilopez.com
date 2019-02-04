@@ -3,7 +3,6 @@ title: "Fearless Change: Patterns for Introducing New Ideas"
 authors: ["Mary Lynn Manns",  "Linda Rising"]
 date: 2006-01-24T09:19:58Z
 isdn: 9780201741575
-draft: true
 ---
 
 This book resonated a lot with me. Suddenly I realized that there is  a way to introduce changes in any human organization.
