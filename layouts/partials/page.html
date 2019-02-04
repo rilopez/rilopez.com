@@ -1,0 +1,10 @@
+<section class="container page">
+  <article>
+    <header>
+      <h1>{{ .Title }}</h1>
+      <h2>{{partial "tags.html" .}}</h2>
+    </header>
+
+    {{ .Content }}
+  </article>
+</section>

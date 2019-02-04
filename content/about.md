@@ -21,7 +21,7 @@ I also want to learn a lot,   lately, besides technical stuff , I have been stud
 * 1997: got my first job as music & guitar teacher
 * 1998: started my collage education
 * 2002: got my first computer science teaching job at Interfaz
-* 2004: graduated from college, started to work professionally  as Software Engineer
+* 2004: graduated from college, started to work professionally as Software Engineer at [setab](https://setab.com.mx) & (unisol)[http://unisolmexico.com/]
 * 2006: Married & born of my first daughter     
-* 2010: Moved family cross country and joined Nearsoft
+* 2010: Moved family cross country and joined [Nearsoft](https://nearsoft.com)
 * 2018: born of my second daughter      

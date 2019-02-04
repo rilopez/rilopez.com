@@ -5,6 +5,7 @@ author: David D. Burns
 subject: Cognitive therapy
 isbn: 9780380810338    
 draft: false
+tags: [psychology]
 ---
 
 This book help me to understand and work out some of my mental patterns by reframing cognitive distortions. 
