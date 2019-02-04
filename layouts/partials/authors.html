@@ -1,0 +1,10 @@
+{{ if .Params.authors }}
+
+<span class="post-authors">
+        By
+        {{ range $index, $author := .Params.authors }}
+           {{- if gt $index 0 }}, {{ end -}}
+           <a href="{{ (urlize (printf "authors/%s" $author)) | absURL }}">{{ $author }}</a>
+    {{ end }}
+      </span>
+{{ end }}

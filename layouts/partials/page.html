@@ -3,6 +3,8 @@
     <header>
       <h1>{{ .Title }}</h1>
       <h2>{{partial "tags.html" .}}</h2>
+
+       {{partial "authors.html" .}}
     </header>
 
     {{ .Content }}

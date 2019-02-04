@@ -12,6 +12,11 @@ pygmentsUseClasses = true
 
 disqusShortname = ""
 
+[taxonomies]
+  category = "categories"
+  author = "authors"
+  tag = "tags"
+
 [params]
     author = "Isaac Lopez"
     description = "Isaac's personal website"
