@@ -30,21 +30,20 @@ training techniques have been established.
 * Deliberate practice is deliberate, that is, it requires a person’s full attention and conscious actions.
  
 * Deliberate practice both produces and depends on effective mental representations. They show the right way to do something and allow one to notice when doing something wrong and to correct it. 
+
 * Deliberate practice nearly always involves building or modifying previously acquired skills by focusing on particular 
    aspects of those skills and working to improve them specifically; over time this step-by-step improvement will 
    eventually lead to expert performance. 
-
-     
-     
+          
      
 ## What are the skills a programmer could improve with deliberated practices?
-this question is kind of silly, because any skill can be improved with a well designed delibered practice, here an small list
-
+This question is kind of silly, because any skill can be improved with a well designed deliberate practice 
+Where are some deliberate practice examples for some skills that any programmer need 
 
 * **Speaking:** Try stopping people on the street and keeping them entertained for as long as possible, using body gestures, excited speaking, etc. Time yourself
 * **Typing:** Slowly ratcheting up the WPM you have to write at, and then figuring out what’s holding you back as you reach plateaus  
 * **Writing:** Break up someone else’s writing and try to reproduce it on your own, such as by trying to recreate their structure, word choice, or other elements. 
-* **learning a new programming language:** Use Derek Sivers’s method of learning more programming functions by quizzing yourself on them using a spaced repetition system.
+* **learning a new programming language:** Use [Derek Sivers’s method](https://sivers.org/srs) of learning more programming functions by quizzing yourself on them using a spaced repetition system.
 * **solving challenges:**  Challenge yourself to write solutions in multiple ways, forbidding yourself from using the same functions you used in the previous methods. 
 * **reading code:** right after reading the code of a project, write down all the important parts you remember and how they relate to each other 
 

@@ -2,7 +2,7 @@
 title: "Peak Secrets From New Science of Expertise"
 date: 2019-02-04T02:46:30Z
 tags: ["learning","expertise"]
-draft: true
+
 ---
 
 
