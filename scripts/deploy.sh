@@ -21,3 +21,5 @@ git push origin master
 
 
 rsync -avz --delete --progress -e 'ssh -p 2222'  public/ rilopezc@rilopez.com:~/public_html
+
+curl "http://www.google.com/ping?sitemap=http://rilopez.com/sitemap.xml"
