@@ -12,6 +12,7 @@ pygmentsUseClasses = true
 
 disqusShortname = ""
 
+googleAnalytics = "UA-133856269-1"
 [taxonomies]
   category = "categories"
   author = "authors"
