@@ -1,7 +1,6 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-REMOTE_DEST=/home2/rilopezc/public_html
 echo -e "\033[0;32mDeploying updates ...\033[0m"
 
 # Build the project.
@@ -19,11 +18,6 @@ git commit -m "$msg"
 
 # Push source and build repos.
 git push origin master
-cd public 
-rsync --progress --delete -rave "ssh "  \
-    --exclude cgi-bin  \    
-    .  rilopezc@rilopez.com:$REMOTE_DEST
-cd 
 
 
-rsync -avz --delete --progress  public/ rilopezc@rilopez.com:~/public_html
+rsync -avz --delete --progress -e 'ssh -p 2222'  public/ rilopezc@rilopez.com:~/public_html

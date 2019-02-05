@@ -4,7 +4,7 @@ date: 2016-06-22T12:30:00Z
 tags: [agile, interview]
 ---
 
-I read the book [fearless change]({{< ref "books/fearless-change.md" >}}) almost 8 years ago and since then I have been a big follower 
+I read the book [fearless change]({{< ref "/books/fearless-change.md" >}}) almost 8 years ago and since then I have been a big follower 
 of Linda Rising teachings. Because one of my new-year resolutions was to meet at least one of my heros, I asked [Carlos](https://www.linkedin.com/in/carlosponcerobles) 
 (from dojo live) to help me talk to Linda Rising, I was not hoping he could get her as a guess in dojo live,.. ohh I was very very wrong.
  

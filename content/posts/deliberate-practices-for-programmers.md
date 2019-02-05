@@ -6,7 +6,7 @@ tags:  ["learning", "programming"]
 
 
 Per [Dayra Chiu](https://twitter.com/DayraChiu) recommendation ,  last year I read the book
-[Peak: Secrets from the New Science of Expertise]({{< ref "books/peak-secrets-from-new-science-of-expertise.md" >}}) 
+[Peak: Secrets from the New Science of Expertise]({{< ref "/books/peak-secrets-from-new-science-of-expertise.md" >}}) 
 by  by K. Anders Ericsson & Robert Pool. I didn't imagine how much gold I would find in that book.
 the topic that surprised the most was: 
  Deliberate practices

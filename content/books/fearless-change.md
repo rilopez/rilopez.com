@@ -9,7 +9,8 @@ This book resonated a lot with me. Suddenly I realized that there is  a way to i
 I have been working on government systems for 2 years and started to see a now way out. I am looking forward to put in practice 
 the patterns.
 
-Here some patterns that I found interesting
+Here some patterns that I found interesting:
+
 * **Just Do It:** Don’t wait for the perfect moment when you have the resources and knowledge you think you need; instead, 
   take the first baby step and start learning.  
 * **Do Food:** To influence attendees, bring special food to a meeting.
@@ -27,7 +28,7 @@ Here some patterns that I found interesting
   to improve your effort, even if you don’t change their minds.   
 * **Bridge Builder:** Ask those who have accepted the new idea to talk with those who have not.          
 * **Elevator pitch** always have a couple of sentences on hand to introduce to others your new idea
-*Brown Bag cofee
+  *Brown Bag cofee
 * **Shoulder to Cry On:** To avoid becoming too discouraged when the going gets tough, find opportunities for 
   everyone to have supportive listeners. 
    
