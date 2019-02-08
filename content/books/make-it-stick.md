@@ -45,9 +45,23 @@ The very techniques that build habit strength, like spacing, interleaving and va
 acquisition and fail to deliver improvement during practice that helps to motivate and reinforce our efforts 
 how ever these techniques are what we need to really learn something 
 
-
-
 ## Embrace Difficulties
+It's one thing to feel confident of your knowledge; it's something else to demonstrate mastery. Testing is not only a powerful learning strategy, it is a potent reality check on accuracy of you own judgment of what you know how to do. 
+
+How learning occurs
+ * **Encoding:** the brain  converts your  perceptions into meaningful representations in the brain.
+ * **Consolidation:** The process of learning often starts out feeling disorganized and unwieldy; the brain 
+     makes connections with prior knowledge by retrieving  a memory from long-term storage. This act both 
+     strengthen the memory traces and at the same time make them modifiable again, enabling them, for example, 
+     to connect to more recent learning.
+  * **Retrieval:** the brain access memories by the "cues" or connections between memories. There is virtually 
+     no limit to how much learning we can remember as long as we relate it to what we already know.
+
+When we  make a concentrated effort to recall, the learning is made "editable" again,  and the consequent 
+re-consolidation helps to reinforce meaning, strengthen connections to prior knowledge, bolster the cues and 
+retrieval routes for recalling it later, and weaken competing routes
+
+In every learning strategy we need to incorporate desirable difficulties, like trying to solve a problem before being show how to solve it.
 
 ## Avoid Illusions of knowing
 
