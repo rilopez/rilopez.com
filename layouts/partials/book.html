@@ -1,0 +1,15 @@
+<section class="container page">
+    <article>
+        <header>
+            {{partial "tags.html" .}}
+            <h1>{{ .Title }}</h1>
+            <small>
+                {{partial "authors.html" .}}
+                <span class="date"><strong>Date Read:</strong>{{ .Date.Format "January 2, 2006" }}</span>
+                {{partial "rating.html" .}}
+            </small>
+        </header>
+
+        {{ .Content }}
+    </article>
+</section>

@@ -2,12 +2,6 @@
   <article>
     <header>
       <h1>{{ .Title }}</h1>
-      <h2>{{partial "tags.html" .}}</h2>
-       {{partial "authors.html" .}}
-       
-{{ if .Params.rating }}
-<span class="post-rating">  Rating  {{.Params.rating }} </span>
-{{ end }}
     </header>
 
     {{ .Content }}

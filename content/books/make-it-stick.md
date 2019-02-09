@@ -3,6 +3,7 @@ title: "Make It Stick: The Science of Successful Learning"
 date: 2019-02-06T02:15:09Z
 draft: true
 authors: ["Peter C. Brown", "Henry L. Roedigner III", "Mark A. McDaniel"]
+tags:  ["learning", "programming"]
 rating: 10/10
 ---
 
