@@ -13,7 +13,7 @@ the topic that surprised the most was:
 
 
 ## First, what is deliberate practice?
-Is an special type of practice that is proposeful and systematic.  It is highlty
+Is a special type of practice that is purposeful and systematic. It is highly 
 demanding mentally so it requires high levels of focus and concentration.
 According to psychologist [Anders Ericsson](https://en.wikipedia.org/wiki/K._Anders_Ericsson) 
 deliberate practice is characterized by the following traits  
@@ -21,18 +21,13 @@ deliberate practice is characterized by the following traits
 
 * Deliberate practice develops skills that other people have already figured out how to do and for
   which effective training techniques have been established.  
-
 * Deliberate practice takes place outside one’s comfort zone. 
-
 * Deliberate practice involves well-defined, specific goals and often involves improving some aspect
   of the target performance; it is not aimed at some vague overall improvement. 
-
 * Deliberate practice is deliberate, that is, it requires a person’s full attention and conscious
   actions.
- 
 * Deliberate practice both produces and depends on effective mental representations. They show the
   right way to do something and allow one to notice when doing something wrong and to correct it. 
-
 * Deliberate practice nearly always involves building or modifying previously acquired skills by
   focusing on particular aspects of those skills and working to improve them specifically; over time
   this step-by-step improvement will eventually lead to expert performance. 

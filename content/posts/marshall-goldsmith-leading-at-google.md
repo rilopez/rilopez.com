@@ -4,7 +4,7 @@ title: "Marshall Goldsmith | Talk @ google"
 tags: ["talks", "leadership"]
 ---
 
-I just discovered Marshall goldsmith and he is awesome, looking forward to read his book 
+I just discovered Marshall Goldsmith and he is awesome, looking forward to read his book 
 [What got you here, won't get you there]({{< ref "/books/what-got-you-here.md">}}). Here are my takeaways:
 
 * _We spend a lot of time helping leaders learn what to do, we don't spend

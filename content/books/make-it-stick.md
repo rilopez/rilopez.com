@@ -65,6 +65,7 @@ retrieval routes for recalling it later, and weaken competing routes
 In every learning strategy we need to incorporate desirable difficulties, like trying to solve a problem before being show how to solve it.
 
 ## Avoid Illusions of knowing
+On thinking fast and slow Daniel Kahneman indicates that  our mind has two modes of thinking :  
 
 ## Get beyond learning styles
 
