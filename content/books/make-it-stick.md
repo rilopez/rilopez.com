@@ -1,7 +1,6 @@
 ---
 title: "Make It Stick: The Science of Successful Learning"
 date: 2019-02-06T02:15:09Z
-draft: true
 authors: ["Peter C. Brown", "Henry L. Roedigner III", "Mark A. McDaniel"]
 tags:  ["learning", "programming"]
 rating: 10/10
@@ -67,9 +66,9 @@ In every learning strategy we need to incorporate desirable difficulties, like t
 ## Avoid Illusions of knowing
 On thinking fast and slow Daniel Kahneman indicates that  our mind has two modes of thinking : sytem
 1 (Automatic and fast) & system 2 (rational and slow). Our system 1 can be easily hickyacked , and
-giving us a false sense of knowing something, thats why we need to put consicius effort (system 2)
-in validating our knowlage. It is common that people with less knowladge  overestimates it is own
-habilities.  This problem was document in several studies, specially the Dunning-Kruger effect where
+giving us a false sense of knowing something, that's why we need to put conscious effort (system 2)
+in validating our knowledge. It is common that people with less knowledge  overestimates it is own
+abilities.  This problem was document in several studies, specially the Dunning-Kruger effect where
 people belive that they are smarte and more capable than they really are.
 
 Regarding tools or habits for calibrating our judgment it mentions: 
@@ -81,7 +80,7 @@ Regarding tools or habits for calibrating our judgment it mentions:
 
 ## Get beyond learning styles
 The idea that individuals have distinct learning styles has been around long enough to become part
-of the folklore, the "teory" holds that people who receive instruction in a manner that is not
+of the folklore, the "theory" holds that people who receive instruction in a manner that is not
 matched to their learning style are at disadvantage for learning
 
 The book makes it clear that everyone has learning preferences, but there is not evidence that
@@ -91,7 +90,7 @@ differences that seems to matter in how people learn:
  * How you see yourself and your abilities( see [Carol Dweck's book growth mindset](/books/growth-mindset.md))
  * Level of _language fluency and reading ability_ 
  * Structure building: the act, as we encounter new material, of extracting the salient ideas and
-   constructing a coherent mental framework out of them. This framework are something scalled
+   constructing a coherent mental framework out of them. This framework are something [called
    mental models or mental maps. High structure builders learn new material better than low
    structure-builders.
  * Rule learner vs example learner  
