@@ -46,9 +46,12 @@ acquisition and fail to deliver improvement during practice that helps to motiva
 how ever these techniques are what we need to really learn something 
 
 ## Embrace Difficulties
-It's one thing to feel confident of your knowledge; it's something else to demonstrate mastery. Testing is not only a powerful learning strategy, it is a potent reality check on accuracy of you own judgment of what you know how to do. 
+It's one thing to feel confident of your knowledge; it's something else to demonstrate mastery. 
+Testing is not only a powerful learning strategy, it is a potent reality check on accuracy of you 
+own judgment of what you know how to do. 
 
 How learning occurs
+
  * **Encoding:** the brain  converts your  perceptions into meaningful representations in the brain.
  * **Consolidation:** The process of learning often starts out feeling disorganized and unwieldy; the brain 
      makes connections with prior knowledge by retrieving  a memory from long-term storage. This act both 

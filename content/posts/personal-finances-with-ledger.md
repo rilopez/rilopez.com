@@ -16,14 +16,14 @@ uses simple text files with a human readable format to store your data, for sure
 test of time.
 
 
-The  [blog post] (https://bofh.org.uk/2019/02/25/baking-with-emacs/) motivated me to give plain text
-accounting a try. In general It felt awesome but complicated, until I got into how he handled financial book-keeping. He was
-using an emacs/org-mode "pluging" for [ledger]
+The  [blog post baking with emacs](https://bofh.org.uk/2019/02/25/baking-with-emacs/) motivated me
+to give plain text accounting a try. In general It felt awesome but complicated, until I got into
+how he handled financial book-keeping. He was using an emacs/org-mode "pluging" for [ledger]
 
 
 ## My setup
 
-The installation is simple on macos
+After I run the normal brew dance to install it 
 
 ```bash
 
@@ -31,7 +31,12 @@ brew install ledger
 
 ```
 
+I added some handy stuff to my dotfiles
 
 
-My Alias  for convenience 
-
+```
+alias l.go="cd ~/dev/repos/ledger"
+alias l.edit="vim ~/dev/repos/ledger/main.ledger"
+alias l.watch="l.go && watch -n 1 ledger bal Assets Liabilities"
+alias l.save="l.go && scripts/commit_and_push.sh"
+```
