@@ -1,5 +1,4 @@
 --- 
-draft: true
 date: 2019-05-26T14:56:02Z
 title: "Academy Lessons Learned"
 tags: ["education"]
