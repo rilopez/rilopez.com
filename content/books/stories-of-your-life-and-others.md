@@ -1,9 +1,8 @@
 --- 
-draft: true
 date: 2020-06-21T14:55:07Z
 title: "Stories of Your Life and Others"
 tags: ["sci-fi"]
-authors: "Ted Chiang" 
+author: "Ted Chiang" 
 isbn: ""
 ---
 
