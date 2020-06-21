@@ -31,5 +31,5 @@ The book is a collection of short science fiction stories, each more mind blowin
 
 You can find out more about the book on 
  - [Wikipedia page](https://en.wikipedia.org/wiki/Stories of Your Life and Others")
- - [Amazon Page](https://www.amazon.com/Stories of Your Life and Others")
+ - [Amazon Page](https://www.amazon.com/Stories-Your-Life-Others-Chiang)
  - [Goodreads page](https://www.goodreads.com/book/Stories of Your Life and Others")
