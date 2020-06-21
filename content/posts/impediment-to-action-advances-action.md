@@ -10,7 +10,7 @@ tags: ["stoicism"]
 > obstacle to its action into means of achieving it.  That which is an impediment to action advances
 >action , What stands in the way becomes the way
 > 
->                                              Marcus Aurelius, Meditations 5.20
+> Marcus Aurelius, Meditations 5.20
 >
 
 
