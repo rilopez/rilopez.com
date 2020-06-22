@@ -25,3 +25,4 @@ I also want to learn a lot,   lately, besides technical stuff , I have been stud
 * 2006: Married & born of my first daughter     
 * 2010: Moved family cross country and joined [Nearsoft](https://nearsoft.com)
 * 2018: born of my second daughter      
+* 2020: start working for [TripAdvisor](https://tripadvisor.com) as software engineer contractor 
