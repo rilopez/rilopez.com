@@ -1,7 +1,7 @@
 ---
 title: "Old Mans War"
 date: 2017-04-11T04:08:29Z
-author: John Scalzi
+authors: ["John Scalzi"]
 tags: ["sci-fi"]
 
 ---
