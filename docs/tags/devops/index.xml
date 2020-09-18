@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>devops on Isaac Lopez</title>
+    <link>https://rilopez.com/tags/devops/</link>
+    <description>Recent content in devops on Isaac Lopez</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 26 Jan 2015 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://rilopez.com/tags/devops/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Learning new tricks - JHipster: AngularJS, Spring Boot</title>
+      <link>https://rilopez.com/posts/jaimito-el-cartero-oriented-programming/</link>
+      <pubDate>Mon, 26 Jan 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://rilopez.com/posts/jaimito-el-cartero-oriented-programming/</guid>
+      <description>I have always thought that the best motivator to learn something is when somebody pays you for doing it (indirectly). Last year I accepted a small freelance project just because it would be a good oportinity to sharp skills and add something new to my bag of tricks. Since for sometime I have been using some &amp;ldquo;outdated&amp;rdquo; things (Ember.js, ColdFusion, Node.js , YUI Library), so I thought &amp;ldquo;it would be cool to use something &amp;ldquo;mainstream/popular&amp;rdquo; with younger developers, and I got surprised because I found something that had all of that and it was a cool name: JHipster</description>
+    </item>
+    
+  </channel>
+</rss>

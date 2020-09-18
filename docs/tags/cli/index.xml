@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>cli on Isaac Lopez</title>
+    <link>https://rilopez.com/tags/cli/</link>
+    <description>Recent content in cli on Isaac Lopez</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 09 Mar 2019 16:46:06 +0000</lastBuildDate>
+    
+	<atom:link href="https://rilopez.com/tags/cli/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Personal Finances With Ledger</title>
+      <link>https://rilopez.com/posts/personal-finances-with-ledger/</link>
+      <pubDate>Sat, 09 Mar 2019 16:46:06 +0000</pubDate>
+      
+      <guid>https://rilopez.com/posts/personal-finances-with-ledger/</guid>
+      <description>Where my money went this time? That is always my question every time I take a look to my monthly bank statements. Over the years I have tried several apps and methods to reduce the panic we get when we have no idea how we acquired that credit card debt, Although all the options have its pros &amp;amp; cons, commonly they share the same problem of locking your data to their chooses proprietary format, giving you the risk of not being able to read when the online service disappears or the app no longer run on newer OS or devises.</description>
+    </item>
+    
+  </channel>
+</rss>

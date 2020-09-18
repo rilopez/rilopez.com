@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Peter C. Brown on Isaac Lopez</title>
+    <link>https://rilopez.com/authors/peter-c.-brown/</link>
+    <description>Recent content in Peter C. Brown on Isaac Lopez</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 06 Feb 2019 02:15:09 +0000</lastBuildDate>
+    
+	<atom:link href="https://rilopez.com/authors/peter-c.-brown/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Make It Stick: The Science of Successful Learning</title>
+      <link>https://rilopez.com/books/make-it-stick/</link>
+      <pubDate>Wed, 06 Feb 2019 02:15:09 +0000</pubDate>
+      
+      <guid>https://rilopez.com/books/make-it-stick/</guid>
+      <description>Some random general highlights
+ The most important is to fight forgetfulness. Learning styles is a myth, there are preferences but there is not true that some people learn better with a given kind of material (listening, reading, etc) Recalling and reflection is better than massive practice, the later gives the illusion of knowing by familiarizing the student with the material but the forgetfulness is quicker  Learning is misunderstood when we ask people about the best(preferred) learning method, most people will answer that it would be re-reading and highlight the material, but this approach is not backed up by data.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>programming on Isaac Lopez</title>
+    <link>https://rilopez.com/tags/programming/</link>
+    <description>Recent content in programming on Isaac Lopez</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 06 Feb 2019 02:15:09 +0000</lastBuildDate>
+    
+	<atom:link href="https://rilopez.com/tags/programming/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Make It Stick: The Science of Successful Learning</title>
+      <link>https://rilopez.com/books/make-it-stick/</link>
+      <pubDate>Wed, 06 Feb 2019 02:15:09 +0000</pubDate>
+      
+      <guid>https://rilopez.com/books/make-it-stick/</guid>
+      <description>Some random general highlights
+ The most important is to fight forgetfulness. Learning styles is a myth, there are preferences but there is not true that some people learn better with a given kind of material (listening, reading, etc) Recalling and reflection is better than massive practice, the later gives the illusion of knowing by familiarizing the student with the material but the forgetfulness is quicker  Learning is misunderstood when we ask people about the best(preferred) learning method, most people will answer that it would be re-reading and highlight the material, but this approach is not backed up by data.</description>
+    </item>
+    
+    <item>
+      <title>Deliberate Practices for programmers</title>
+      <link>https://rilopez.com/posts/deliberate-practices-for-programmers/</link>
+      <pubDate>Mon, 04 Feb 2019 02:36:34 +0000</pubDate>
+      
+      <guid>https://rilopez.com/posts/deliberate-practices-for-programmers/</guid>
+      <description>Per Dayra Chiu recommendation , last year I read the book Peak: Secrets from the New Science of Expertise by by K. Anders Ericsson &amp;amp; Robert Pool. I didn&amp;rsquo;t imagine how much gold I would find in that book. the topic that surprised the most was: Deliberate practices
+First, what is deliberate practice? Is a special type of practice that is purposeful and systematic. It is highly demanding mentally so it requires high levels of focus and concentration.</description>
+    </item>
+    
+    <item>
+      <title>Learning new tricks - JHipster: AngularJS, Spring Boot</title>
+      <link>https://rilopez.com/posts/jaimito-el-cartero-oriented-programming/</link>
+      <pubDate>Mon, 26 Jan 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://rilopez.com/posts/jaimito-el-cartero-oriented-programming/</guid>
+      <description>I have always thought that the best motivator to learn something is when somebody pays you for doing it (indirectly). Last year I accepted a small freelance project just because it would be a good oportinity to sharp skills and add something new to my bag of tricks. Since for sometime I have been using some &amp;ldquo;outdated&amp;rdquo; things (Ember.js, ColdFusion, Node.js , YUI Library), so I thought &amp;ldquo;it would be cool to use something &amp;ldquo;mainstream/popular&amp;rdquo; with younger developers, and I got surprised because I found something that had all of that and it was a cool name: JHipster</description>
+    </item>
+    
+    <item>
+      <title>Pragmatic Programmer</title>
+      <link>https://rilopez.com/books/pragmatic-programmer/</link>
+      <pubDate>Sun, 17 Apr 2005 22:00:59 +0000</pubDate>
+      
+      <guid>https://rilopez.com/books/pragmatic-programmer/</guid>
+      <description>this is my go to reference book for any software engineering work/life problem. it contains a lot of wisdom gathered from the tranches of multiple software projects
+Some tips/phrases I remember the most:
+ Mob programming: when more than two programmers work in the same code, same time. Take responsibility, provide options , Don&amp;rsquo;t make lame excuses Stone soup and boiled frogs Invest regularly in your knowledge portfolio Good design is easier to change than bad design Orthogonality: in geometry two lines are orthogonal if they meet at right angles.</description>
+    </item>
+    
+    <item>
+      <title>Code Complete</title>
+      <link>https://rilopez.com/books/code-complete/</link>
+      <pubDate>Thu, 17 Feb 2005 22:01:26 +0000</pubDate>
+      
+      <guid>https://rilopez.com/books/code-complete/</guid>
+      <description>I have read this book, but haven&amp;rsquo;t written my opinion about it
+You can find out more about the book on:
+ Wikipedia page Amazon Page Goodreads page  </description>
+    </item>
+    
+  </channel>
+</rss>

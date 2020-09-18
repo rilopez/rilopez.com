@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>education on Isaac Lopez</title>
+    <link>https://rilopez.com/tags/education/</link>
+    <description>Recent content in education on Isaac Lopez</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 26 May 2019 14:56:02 +0000</lastBuildDate>
+    
+	<atom:link href="https://rilopez.com/tags/education/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Academy Lessons Learned</title>
+      <link>https://rilopez.com/posts/academy-lessons-learned/</link>
+      <pubDate>Sun, 26 May 2019 14:56:02 +0000</pubDate>
+      
+      <guid>https://rilopez.com/posts/academy-lessons-learned/</guid>
+      <description>Nearsoft Academy: Lessons learned after almost a decade preparing interns With a tight talent market, developing talent in-house gets a special appeal. Not only because of the reduction of costs but for the opportunity to rise the bar for future generations. Some assumptions anybody makes when trying to implement an internship program are,
+ We can ask our seniors to mentor interns We are better at teaching than their university professors With the right training program any college graduate can produce good work at our organization  After almost a decade of working with interns, at Nearsoft academy We learned a lot of hard lessons that help us to get rid of those assumptions</description>
+    </item>
+    
+    <item>
+      <title>Nearsoft Academy</title>
+      <link>https://rilopez.com/posts/nearsoft-academy/</link>
+      <pubDate>Sun, 17 Feb 2019 21:42:37 +0000</pubDate>
+      
+      <guid>https://rilopez.com/posts/nearsoft-academy/</guid>
+      <description>8 years ago I started the foundations of our internship program at nearsoft, called Nearsoft Academy. So far 91 young engineers have taken the program, most of them worked for us right after graduation.
+Designing an internship program Because I think that a software engineer is most about people than about &amp;ldquo;techy stuff&amp;rdquo;, I tried to design the program following the teachings several books like fearless change, pragmatic programmer, outliers &amp;amp; code complete</description>
+    </item>
+    
+  </channel>
+</rss>
