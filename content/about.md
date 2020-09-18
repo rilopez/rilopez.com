@@ -3,7 +3,7 @@ title: "About"
 date: 2019-02-02T18:47:45Z
 ---
 ## Me  in 10 secs
-Software engineer, Educator, creator of  Nearsoft Academy, avid student of life.
+Software engineer, Educator, avid student of life.
 
 ## Long version 
 I am a life long learner, currently working as educator  and software engineer at nearsoft. 
