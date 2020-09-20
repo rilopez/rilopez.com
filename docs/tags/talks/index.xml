@@ -21,6 +21,17 @@
     </item>
     
     <item>
+      <title>Microservices by Martin Flowler</title>
+      <link>https://rilopez.com/posts/microservices-by-martin-flowler/</link>
+      <pubDate>Sat, 19 Oct 2019 11:24:29 -0500</pubDate>
+      
+      <guid>https://rilopez.com/posts/microservices-by-martin-flowler/</guid>
+      <description>My takeways:   There is no real definition, Its something that from the begining is ill defined
+  Martin can identify 9 characteristics
+ Componentization via services Thinking about parts not as builders, but as users changing parts of stereo components Organized Around Business capabilities Smart endpoints and dump pipes. There is no room for complex middleware (ESB) Decentralized governance Decentraliced Data Managment Infraestructure automation Design for failure    Are microservices just SOA?</description>
+    </item>
+    
+    <item>
       <title>Impact of Mindfulness on Your Brain and Business by Dr Amishi jha</title>
       <link>https://rilopez.com/posts/impact-of-mindfulness-on-your-brain-and-business-by-dr-amishi-hjha/</link>
       <pubDate>Sun, 10 Feb 2019 11:10:16 -0500</pubDate>

@@ -20,5 +20,16 @@
       <description>My takeaways  Neuralink had a great streaming showing their latest updates they showed live telemetry directly from an alive walking pig Pigs are similar to people, they move a lot and they are robust so if the device does not get malfunctions on pigs , it would work on people Currently the team is 100 people, it is expected to grow up to 10K people the device uses something like bluetooth Clinical trial is aimed at people with paraplegia In the future you can record your memories and play it back, How do we know that this moment is not our future self playing back his memories?</description>
     </item>
     
+    <item>
+      <title>Microservices by Martin Flowler</title>
+      <link>https://rilopez.com/posts/microservices-by-martin-flowler/</link>
+      <pubDate>Sat, 19 Oct 2019 11:24:29 -0500</pubDate>
+      
+      <guid>https://rilopez.com/posts/microservices-by-martin-flowler/</guid>
+      <description>My takeways:   There is no real definition, Its something that from the begining is ill defined
+  Martin can identify 9 characteristics
+ Componentization via services Thinking about parts not as builders, but as users changing parts of stereo components Organized Around Business capabilities Smart endpoints and dump pipes. There is no room for complex middleware (ESB) Decentralized governance Decentraliced Data Managment Infraestructure automation Design for failure    Are microservices just SOA?</description>
+    </item>
+    
   </channel>
 </rss>
