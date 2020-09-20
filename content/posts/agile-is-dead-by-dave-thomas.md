@@ -1,5 +1,4 @@
 --- 
-draft: true
 date: 2019-02-13T21:46:21-05:00
 title: "Agile Is Dead by Dave Thomas"
 tags: ["agile", "tech"]
