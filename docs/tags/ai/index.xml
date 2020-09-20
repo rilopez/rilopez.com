@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ai on Isaac Lopez</title>
+    <link>https://rilopez.com/tags/ai/</link>
+    <description>Recent content in ai on Isaac Lopez</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 28 Aug 2020 23:40:51 -0500</lastBuildDate>
+    
+	<atom:link href="https://rilopez.com/tags/ai/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Neuralink Summer 2020</title>
+      <link>https://rilopez.com/posts/neuralink-summer-2020/</link>
+      <pubDate>Fri, 28 Aug 2020 23:40:51 -0500</pubDate>
+      
+      <guid>https://rilopez.com/posts/neuralink-summer-2020/</guid>
+      <description>My takeaways  Neuralink had a great streaming showing their latest updates they showed live telemetry directly from an alive walking pig Pigs are similar to people, they move a lot and they are robust so if the device does not get malfunctions on pigs , it would work on people Currently the team is 100 people, it is expected to grow up to 10K people the device uses something like bluetooth Clinical trial is aimed at people with paraplegia In the future you can record your memories and play it back, How do we know that this moment is not our future self playing back his memories?</description>
+    </item>
+    
+  </channel>
+</rss>
