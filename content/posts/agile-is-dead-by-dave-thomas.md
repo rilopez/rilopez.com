@@ -5,7 +5,7 @@ tags: ["agile", "tech"]
 
 ---
 
-{{< youtube "">}}
+{{< youtube "a-BOSpxYJ9M">}}
 
 ## My Takeaways
 
