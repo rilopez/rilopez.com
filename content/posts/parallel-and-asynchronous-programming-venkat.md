@@ -4,8 +4,7 @@ title: "Parallel and Asynchronous Programming with Streams and CompletableFuture
 tags: ["java","talks"]
 ---
 
-
-{{ <youtube "IwJ-SCfXoAU"> }}
+{{< youtube "IwJ-SCfXoAU" >}}
 
 - parallel when you have an array of data 
 - concurrent when you have a problem that can be divided
