@@ -21,6 +21,16 @@
     </item>
     
     <item>
+      <title>Parallel and Asynchronous Programming with Streams and CompletableFuture by Venkat Subramaniam</title>
+      <link>https://rilopez.com/posts/parallel-and-asynchronous-programming-venkat/</link>
+      <pubDate>Sun, 29 Dec 2019 17:39:46 -0500</pubDate>
+      
+      <guid>https://rilopez.com/posts/parallel-and-asynchronous-programming-venkat/</guid>
+      <description>{{ youtube &amp;ldquo;IwJ-SCfXoAU&amp;rdquo; }}
+ parallel when you have an array of data concurrent when you have a problem that can be divided an conquer. Collection Pipeline pattern by Martin Flower forEachOrdered  </description>
+    </item>
+    
+    <item>
       <title>Academy Lessons Learned</title>
       <link>https://rilopez.com/posts/academy-lessons-learned/</link>
       <pubDate>Sun, 26 May 2019 14:56:02 +0000</pubDate>

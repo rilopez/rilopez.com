@@ -73,6 +73,21 @@
   </url>
   
   <url>
+    <loc>https://rilopez.com/tags/java/</loc>
+    <lastmod>2019-12-29T17:39:46-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rilopez.com/posts/parallel-and-asynchronous-programming-venkat/</loc>
+    <lastmod>2019-12-29T17:39:46-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rilopez.com/tags/talks/</loc>
+    <lastmod>2019-12-29T17:39:46-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://rilopez.com/posts/academy-lessons-learned/</loc>
     <lastmod>2019-05-26T14:56:02+00:00</lastmod>
   </url>
@@ -284,11 +299,6 @@
   
   <url>
     <loc>https://rilopez.com/posts/marshall-goldsmith-leading-at-google/</loc>
-    <lastmod>2009-01-11T08:57:32+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://rilopez.com/tags/talks/</loc>
     <lastmod>2009-01-11T08:57:32+00:00</lastmod>
   </url>
   
