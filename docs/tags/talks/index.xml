@@ -6,10 +6,19 @@
     <description>Recent content in talks on Isaac Lopez</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 29 Dec 2019 17:39:46 -0500</lastBuildDate>
+    <lastBuildDate>Sun, 20 Sep 2020 16:32:55 -0500</lastBuildDate>
     
 	<atom:link href="https://rilopez.com/tags/talks/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>No Arms, No Legs, No Worries by Nick Vujicic </title>
+      <link>https://rilopez.com/posts/no-arms-no-legs-no-worries/</link>
+      <pubDate>Sun, 20 Sep 2020 16:32:55 -0500</pubDate>
+      
+      <guid>https://rilopez.com/posts/no-arms-no-legs-no-worries/</guid>
+      <description>   My takeaways  Be grateful with what you are Do not think on what you do not have, think on what you have. Disabled is just in the mind Ask for a second opinion when somebody give you a bad opinion The day you think you reached your full potential, is the day when you haven&amp;rsquo;t done it. Live a life without limits  </description>
+    </item>
     
     <item>
       <title>Parallel and Asynchronous Programming with Streams and CompletableFuture by Venkat Subramaniam</title>
