@@ -3,26 +3,6 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://rilopez.com/tags/inspirational/</loc>
-    <lastmod>2020-09-20T16:32:55-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://rilopez.com/posts/no-arms-no-legs-no-worries/</loc>
-    <lastmod>2020-09-20T16:32:55-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://rilopez.com/tags/</loc>
-    <lastmod>2020-09-20T16:32:55-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://rilopez.com/tags/talks/</loc>
-    <lastmod>2020-09-20T16:32:55-05:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://rilopez.com/authors/</loc>
     <lastmod>2020-09-19T11:00:58-05:00</lastmod>
   </url>
@@ -39,6 +19,11 @@
   
   <url>
     <loc>https://rilopez.com/authors/stephen-wolfram/</loc>
+    <lastmod>2020-09-19T11:00:58-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rilopez.com/tags/</loc>
     <lastmod>2020-09-19T11:00:58-05:00</lastmod>
   </url>
   
@@ -94,6 +79,11 @@
   
   <url>
     <loc>https://rilopez.com/posts/parallel-and-asynchronous-programming-venkat/</loc>
+    <lastmod>2019-12-29T17:39:46-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rilopez.com/tags/talks/</loc>
     <lastmod>2019-12-29T17:39:46-05:00</lastmod>
   </url>
   
@@ -305,6 +295,16 @@
   <url>
     <loc>https://rilopez.com/posts/the-energy-project-by-tony-schwartz/</loc>
     <lastmod>2009-11-02T15:50:54-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rilopez.com/tags/inspirational/</loc>
+    <lastmod>2009-09-20T16:32:55-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rilopez.com/posts/no-arms-no-legs-no-worries/</loc>
+    <lastmod>2009-09-20T16:32:55-05:00</lastmod>
   </url>
   
   <url>
