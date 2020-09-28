@@ -5,8 +5,6 @@ tags: ["talks","psychology"]
 
 ---
 
-
-{{< youtube "B5IGyHNvr7E" >}}
 ## My Takeaways
 
 - Two disorders have been growing between generation Z
@@ -16,3 +14,5 @@ tags: ["talks","psychology"]
  
 - The sudden emergence of a new moral culture of safetyism (safespaces,trigger warinings, )
 - What does not kill you makes you weaker
+
+{{< youtube "B5IGyHNvr7E" >}}

@@ -5,10 +5,6 @@ tags: ["talks", "inspirational"]
 
 ---
 
-
-{{< youtube "l91cgdFCkJ0" >}}
-
-
 ## My takeaways
 
 - Be grateful with what you are
@@ -18,3 +14,4 @@ tags: ["talks", "inspirational"]
 - The day you think you reached your full potential, is the day when you haven't done it.
 - Live a life without limits
 
+{{< youtube "l91cgdFCkJ0" >}}

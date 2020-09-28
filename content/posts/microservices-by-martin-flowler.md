@@ -5,9 +5,7 @@ tags: ["talks", "tech"]
 
 ---
 
-{{< youtube "2yko4TbC8cI" >}}
-
-## My takeways:
+## My takeaways:
 
 - There is no real definition, Its something that from the begining is ill defined
 - Martin can identify 9 characteristics 
@@ -25,3 +23,4 @@ tags: ["talks", "tech"]
  called microservices
 - With every new idea people tend to overused
 
+{{< youtube "2yko4TbC8cI" >}}

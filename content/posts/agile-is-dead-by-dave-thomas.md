@@ -5,8 +5,6 @@ tags: ["agile", "tech"]
 
 ---
 
-{{< youtube "a-BOSpxYJ9M">}}
-
 ## My Takeaways
 
 - UML destroyed the OOP by  focusing a generation of programmers into Classes instead of objects.
@@ -22,3 +20,4 @@ tags: ["agile", "tech"]
 
 - No rules are universal, all rules require a context
 
+{{< youtube "a-BOSpxYJ9M">}}

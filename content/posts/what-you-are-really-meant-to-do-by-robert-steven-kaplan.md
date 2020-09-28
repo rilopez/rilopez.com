@@ -1,11 +1,8 @@
 --- 
 date: 2013-08-11T16:36:29-05:00
-title: "What You're Really Meant to Do By Robert Steven Kaplan"
+title: " "
 tags: ["talks"]
 ---
-
-
-{{< youtube "8sY-qwEYjs0">}}
 
 ## My takeaways
 - Speaker [Robert Steven Kaplan][1]
@@ -23,6 +20,9 @@ tags: ["talks"]
 
 - "Act like an owner !!!!!"
    it is the difference between GREAT people and others
+
+
+{{< youtube "8sY-qwEYjs0">}}
 
 
 

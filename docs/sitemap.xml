@@ -3,6 +3,21 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://rilopez.com/posts/joe-rogan-at-lex-podcast/</loc>
+    <lastmod>2020-09-27T23:19:31-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rilopez.com/tags/</loc>
+    <lastmod>2020-09-27T23:19:31-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rilopez.com/tags/talks/</loc>
+    <lastmod>2020-09-27T23:19:31-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://rilopez.com/authors/</loc>
     <lastmod>2020-09-19T11:00:58-05:00</lastmod>
   </url>
@@ -19,11 +34,6 @@
   
   <url>
     <loc>https://rilopez.com/authors/stephen-wolfram/</loc>
-    <lastmod>2020-09-19T11:00:58-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://rilopez.com/tags/</loc>
     <lastmod>2020-09-19T11:00:58-05:00</lastmod>
   </url>
   
@@ -79,11 +89,6 @@
   
   <url>
     <loc>https://rilopez.com/posts/parallel-and-asynchronous-programming-venkat/</loc>
-    <lastmod>2019-12-29T17:39:46-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://rilopez.com/tags/talks/</loc>
     <lastmod>2019-12-29T17:39:46-05:00</lastmod>
   </url>
   

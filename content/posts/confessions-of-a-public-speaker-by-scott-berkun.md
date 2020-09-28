@@ -5,8 +5,6 @@ tags: ["talks"]
 
 ---
 
-{{< youtube "yhA04D_xfp8" >}}
-
 
 ## My takeaways
 
@@ -46,5 +44,6 @@ tags: ["talks"]
    2. How do you practice 
       - bullets first, and talk alone later make the slides.
 
+{{< youtube "yhA04D_xfp8" >}}
 
 [1]:https://www.amazon.com/Confessions-Public-Speaker-Scott-Berkun/dp/1449301959

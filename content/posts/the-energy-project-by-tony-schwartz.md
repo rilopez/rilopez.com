@@ -5,11 +5,7 @@ tags: ["talks", "leadership"]
 
 ---
 
-{{< youtube "tke6X2eME3c" >}}
-
 ## My Takeaways
-
-
 - Time is finite
   - Energy is expandable
   - Energy is the capacity to do work.
@@ -22,3 +18,5 @@ tags: ["talks", "leadership"]
   - Ultradian rhythms the 90-120 minute wave
   - Paradigm Shift: Life as sprinter not a marathoner 
 - To manage energy Optimally , we most build positive rituals
+
+{{< youtube "tke6X2eME3c" >}}

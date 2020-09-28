@@ -5,8 +5,6 @@ tags: ["ai", "tech"]
 ---
 
 
-{{< youtube "DVvmgjBL74w" >}}  
-
 ## My takeaways
 -  Neuralink had a great streaming showing their latest updates
 they showed live telemetry directly from an alive walking pig 
@@ -22,3 +20,5 @@ they showed live telemetry directly from an alive walking pig
 - _We are in some way Hydrogen Evolved, and some day along the way hydrogen started talking and thought it was conscious_ -- Elon Musk  
 - _If you bombard earth with photos for long enough, it will emit a tesla_ --  Neuralink eng. 
 
+
+{{< youtube "DVvmgjBL74w" >}}  
