@@ -5,7 +5,7 @@ author: "Marshall goldsmit"
 tags: [leadership]
 ---
 
->Too often, succesfull people can't tell the difference between wanting to win and wanting to win too much. 
+>Too often, successful people can't tell the difference between wanting to win and wanting to win too much. 
 >The first part can be a good motivator but the secon is a problem. 
 
 It was an interesting read, it make me realized the effect we have on people could bad if we focused on 
