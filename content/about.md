@@ -6,7 +6,7 @@ date: 2019-02-02T18:47:45Z
 Software engineer, Educator, avid student of life.
 
 ## Long version 
-I am a life long learner, currently working software engineer contractor. 
+I am a life long learner, currently working as software engineer contractor. 
 
 As an Application Developer and Project Manager I have an agile and pragmatic approach to my craft. I have created a wide variety of business applications, with a particular interest in web apps and database design using Java, Go, JavaScript and PostgreSQL. 
 
