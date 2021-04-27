@@ -6,11 +6,7 @@
     <description>Recent content in java on Isaac Lopez</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 29 Dec 2019 17:39:46 -0500</lastBuildDate>
-    
-	<atom:link href="https://rilopez.com/tags/java/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Sun, 29 Dec 2019 17:39:46 -0500</lastBuildDate><atom:link href="https://rilopez.com/tags/java/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Parallel and Asynchronous Programming with Streams and CompletableFuture by Venkat Subramaniam</title>
       <link>https://rilopez.com/posts/parallel-and-asynchronous-programming-venkat/</link>

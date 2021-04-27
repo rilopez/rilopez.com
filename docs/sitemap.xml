@@ -1,409 +1,253 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
-  <url>
-    <loc>https://rilopez.com/tags/creators/</loc>
-    <lastmod>2021-03-24T11:56:02+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://rilopez.com/</loc>
-    <lastmod>2021-03-24T11:56:02+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://rilopez.com/posts/new-content/</loc>
-    <lastmod>2021-03-24T11:56:02+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://rilopez.com/tags/</loc>
-    <lastmod>2021-03-24T11:56:02+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://rilopez.com/posts/joe-rogan-at-lex-podcast/</loc>
-    <lastmod>2020-09-27T23:19:31-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://rilopez.com/tags/talks/</loc>
-    <lastmod>2020-09-27T23:19:31-05:00</lastmod>
-  </url>
-  
   <url>
     <loc>https://rilopez.com/authors/</loc>
-    <lastmod>2020-09-19T11:00:58-05:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2021-04-24T13:01:26+00:00</lastmod>
+  </url><url>
     <loc>https://rilopez.com/tags/biographies/</loc>
-    <lastmod>2020-09-19T11:00:58-05:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2021-04-24T13:01:26+00:00</lastmod>
+  </url><url>
+    <loc>https://rilopez.com/</loc>
+    <lastmod>2021-04-24T13:01:26+00:00</lastmod>
+  </url><url>
+    <loc>https://rilopez.com/books/code-complete-copy/</loc>
+    <lastmod>2021-04-24T13:01:26+00:00</lastmod>
+  </url><url>
+    <loc>https://rilopez.com/tags/</loc>
+    <lastmod>2021-04-24T13:01:26+00:00</lastmod>
+  </url><url>
+    <loc>https://rilopez.com/authors/walter-isaacson/</loc>
+    <lastmod>2021-04-24T13:01:26+00:00</lastmod>
+  </url><url>
+    <loc>https://rilopez.com/tags/creators/</loc>
+    <lastmod>2021-03-24T11:56:02+00:00</lastmod>
+  </url><url>
+    <loc>https://rilopez.com/posts/new-content/</loc>
+    <lastmod>2021-03-24T11:56:02+00:00</lastmod>
+  </url><url>
+    <loc>https://rilopez.com/posts/joe-rogan-at-lex-podcast/</loc>
+    <lastmod>2020-09-27T23:19:31-05:00</lastmod>
+  </url><url>
+    <loc>https://rilopez.com/tags/talks/</loc>
+    <lastmod>2020-09-27T23:19:31-05:00</lastmod>
+  </url><url>
     <loc>https://rilopez.com/books/idea-makers/</loc>
     <lastmod>2020-09-19T11:00:58-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://rilopez.com/authors/stephen-wolfram/</loc>
     <lastmod>2020-09-19T11:00:58-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://rilopez.com/tags/ai/</loc>
     <lastmod>2020-08-28T23:40:51-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://rilopez.com/posts/neuralink-summer-2020/</loc>
     <lastmod>2020-08-28T23:40:51-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://rilopez.com/tags/tech/</loc>
     <lastmod>2020-08-28T23:40:51-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://rilopez.com/authors/arnold-schwarzenegger/</loc>
     <lastmod>2020-07-14T04:19:39+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://rilopez.com/books/total-recall/</loc>
     <lastmod>2020-07-14T04:19:39+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://rilopez.com/tags/sci-fi/</loc>
     <lastmod>2020-06-21T14:55:07+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://rilopez.com/books/stories-of-your-life-and-others/</loc>
     <lastmod>2020-06-21T14:55:07+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://rilopez.com/books/leonardo-da-vinci/</loc>
     <lastmod>2020-03-21T04:54:49+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://rilopez.com/authors/walter-isaacsons/</loc>
     <lastmod>2020-03-21T04:54:49+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://rilopez.com/tags/java/</loc>
     <lastmod>2019-12-29T17:39:46-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://rilopez.com/posts/parallel-and-asynchronous-programming-venkat/</loc>
     <lastmod>2019-12-29T17:39:46-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://rilopez.com/posts/microservices-by-martin-flowler/</loc>
     <lastmod>2019-10-19T11:24:29-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://rilopez.com/tags/psychology/</loc>
     <lastmod>2019-06-23T07:12:57-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://rilopez.com/posts/three-terrible-ideas-weakening-gen-z-by-jonathan-haidt/</loc>
     <lastmod>2019-06-23T07:12:57-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://rilopez.com/posts/academy-lessons-learned/</loc>
     <lastmod>2019-05-26T14:56:02+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://rilopez.com/tags/education/</loc>
     <lastmod>2019-05-26T14:56:02+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://rilopez.com/tags/cli/</loc>
     <lastmod>2019-03-09T16:46:06+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://rilopez.com/posts/personal-finances-with-ledger/</loc>
     <lastmod>2019-03-09T16:46:06+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://rilopez.com/posts/nearsoft-academy/</loc>
     <lastmod>2019-02-17T21:42:37+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://rilopez.com/tags/agile/</loc>
     <lastmod>2019-02-13T21:46:21-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://rilopez.com/posts/agile-is-dead-by-dave-thomas/</loc>
     <lastmod>2019-02-13T21:46:21-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://rilopez.com/posts/impact-of-mindfulness-on-your-brain-and-business-by-dr-amishi-hjha/</loc>
     <lastmod>2019-02-10T11:10:16-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://rilopez.com/authors/henry-l.-roedigner-iii/</loc>
     <lastmod>2019-02-06T02:15:09+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://rilopez.com/tags/learning/</loc>
     <lastmod>2019-02-06T02:15:09+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://rilopez.com/books/make-it-stick/</loc>
     <lastmod>2019-02-06T02:15:09+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://rilopez.com/authors/mark-a.-mcdaniel/</loc>
     <lastmod>2019-02-06T02:15:09+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://rilopez.com/authors/peter-c.-brown/</loc>
     <lastmod>2019-02-06T02:15:09+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://rilopez.com/tags/programming/</loc>
     <lastmod>2019-02-06T02:15:09+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://rilopez.com/authors/anders-ericsson/</loc>
     <lastmod>2019-02-04T02:46:30+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://rilopez.com/tags/expertise/</loc>
     <lastmod>2019-02-04T02:46:30+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://rilopez.com/books/peak-secrets-from-new-science-of-expertise/</loc>
     <lastmod>2019-02-04T02:46:30+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://rilopez.com/authors/robert-pool/</loc>
     <lastmod>2019-02-04T02:46:30+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://rilopez.com/posts/deliberate-practices-for-programmers/</loc>
     <lastmod>2019-02-04T02:36:34+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://rilopez.com/about/</loc>
     <lastmod>2019-02-02T18:47:45+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://rilopez.com/posts/</loc>
     <lastmod>2019-02-02T18:47:45+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://rilopez.com/books/</loc>
     <lastmod>2019-02-02T18:47:45+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://rilopez.com/contact/</loc>
     <lastmod>2019-02-02T18:47:45+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://rilopez.com/posts/impediment-to-action-advances-action/</loc>
     <lastmod>2018-06-30T15:33:50+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://rilopez.com/tags/stoicism/</loc>
     <lastmod>2018-06-30T15:33:50+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://rilopez.com/posts/philosophy-is-for-life/</loc>
     <lastmod>2017-08-14T12:58:28+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://rilopez.com/tags/stoicsm/</loc>
     <lastmod>2017-08-14T12:58:28+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://rilopez.com/posts/toma-al-toro-por-los-cuernos/</loc>
     <lastmod>2017-08-13T12:38:32+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://rilopez.com/authors/david-d.-burns/</loc>
     <lastmod>2017-05-03T05:10:57+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://rilopez.com/books/feeling-good/</loc>
     <lastmod>2017-05-03T05:10:57+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://rilopez.com/authors/john-scalzi/</loc>
     <lastmod>2017-04-11T04:08:29+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://rilopez.com/books/old-mans-war/</loc>
     <lastmod>2017-04-11T04:08:29+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://rilopez.com/tags/interview/</loc>
     <lastmod>2016-06-22T12:30:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://rilopez.com/posts/linda-rising-interview/</loc>
     <lastmod>2016-06-22T12:30:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://rilopez.com/tags/devops/</loc>
     <lastmod>2015-01-26T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://rilopez.com/posts/jaimito-el-cartero-oriented-programming/</loc>
     <lastmod>2015-01-26T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://rilopez.com/posts/what-you-are-really-meant-to-do-by-robert-steven-kaplan/</loc>
     <lastmod>2013-08-11T16:36:29-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://rilopez.com/posts/confessions-of-a-public-speaker-by-scott-berkun/</loc>
     <lastmod>2009-12-20T12:59:21-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://rilopez.com/tags/leadership/</loc>
     <lastmod>2009-11-02T15:50:54-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://rilopez.com/posts/the-energy-project-by-tony-schwartz/</loc>
     <lastmod>2009-11-02T15:50:54-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://rilopez.com/tags/inspirational/</loc>
     <lastmod>2009-09-20T16:32:55-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://rilopez.com/posts/no-arms-no-legs-no-worries/</loc>
     <lastmod>2009-09-20T16:32:55-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://rilopez.com/books/what-got-you-here/</loc>
     <lastmod>2009-05-08T04:33:50+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://rilopez.com/authors/malcolm-gladwell/</loc>
     <lastmod>2009-02-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://rilopez.com/books/outliers/</loc>
     <lastmod>2009-02-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://rilopez.com/tags/pychology/</loc>
     <lastmod>2009-02-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://rilopez.com/tags/success/</loc>
     <lastmod>2009-02-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://rilopez.com/posts/marshall-goldsmith-leading-at-google/</loc>
     <lastmod>2009-01-11T08:57:32+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://rilopez.com/books/fearless-change/</loc>
     <lastmod>2006-01-24T09:19:58+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://rilopez.com/authors/linda-rising/</loc>
     <lastmod>2006-01-24T09:19:58+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://rilopez.com/authors/mary-lynn-manns/</loc>
     <lastmod>2006-01-24T09:19:58+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://rilopez.com/authors/andy-hunt/</loc>
     <lastmod>2005-04-17T22:00:59+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://rilopez.com/authors/dave-thomas/</loc>
     <lastmod>2005-04-17T22:00:59+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://rilopez.com/books/pragmatic-programmer/</loc>
     <lastmod>2005-04-17T22:00:59+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://rilopez.com/books/code-complete/</loc>
     <lastmod>2005-02-17T22:01:26+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://rilopez.com/authors/steve-mcconnell/</loc>
     <lastmod>2005-02-17T22:01:26+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://rilopez.com/categories/</loc>
   </url>
-  
 </urlset>

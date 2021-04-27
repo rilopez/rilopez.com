@@ -43,7 +43,7 @@
 
     
 
-    <meta name="generator" content="Hugo 0.74.3" />
+    <meta name="generator" content="Hugo 0.82.0" />
   </head>
 
   <body class="">
@@ -166,17 +166,17 @@ nohup java -server <span class="se">\
 </li>
 <li>
 <p>Speficy the openshift enviroment variables in <code>mi-proyecto/src/main/resources/config/application-prod.yml</code></p>
-<div class="highlight"><pre class="chroma"><code class="language-yaml" data-lang="yaml"><span class="w">    </span><span class="k">server</span><span class="p">:</span><span class="w">
-</span><span class="w">     </span><span class="k">port</span><span class="p">:</span><span class="w"> </span><span class="m">8080</span><span class="w">
-</span><span class="w">    </span><span class="k">spring</span><span class="p">:</span><span class="w">
-</span><span class="w">     </span><span class="k">profiles</span><span class="p">:</span><span class="w"> </span>prod<span class="w">
-</span><span class="w">    </span><span class="k">datasource</span><span class="p">:</span><span class="w">
-</span><span class="w">     </span><span class="k">dataSourceClassName</span><span class="p">:</span><span class="w"> </span>org.postgresql.ds.PGSimpleDataSource<span class="w">
-</span><span class="w">     </span><span class="k">url</span><span class="p">:</span><span class="w">
-</span><span class="w">     </span><span class="k">databaseName</span><span class="p">:</span><span class="w"> </span>mi-proyecto<span class="w">
-</span><span class="w">     </span><span class="k">serverName</span><span class="p">:</span><span class="w"> </span>${OPENSHIFT_POSTGRESQL_DB_HOST}<span class="w">
-</span><span class="w">     </span><span class="k">username</span><span class="p">:</span><span class="w"> </span>${OPENSHIFT_POSTGRESQL_DB_USERNAME}<span class="w">
-</span><span class="w">     </span><span class="k">password</span><span class="p">:</span><span class="w"> </span>${OPENSHIFT_POSTGRESQL_DB_PASSWORD}<span class="w">
+<div class="highlight"><pre class="chroma"><code class="language-yaml" data-lang="yaml"><span class="w">    </span><span class="nt">server</span><span class="p">:</span><span class="w">
+</span><span class="w">     </span><span class="nt">port</span><span class="p">:</span><span class="w"> </span><span class="m">8080</span><span class="w">
+</span><span class="w">    </span><span class="nt">spring</span><span class="p">:</span><span class="w">
+</span><span class="w">     </span><span class="nt">profiles</span><span class="p">:</span><span class="w"> </span><span class="l">prod</span><span class="w">
+</span><span class="w">    </span><span class="nt">datasource</span><span class="p">:</span><span class="w">
+</span><span class="w">     </span><span class="nt">dataSourceClassName</span><span class="p">:</span><span class="w"> </span><span class="l">org.postgresql.ds.PGSimpleDataSource</span><span class="w">
+</span><span class="w">     </span><span class="nt">url</span><span class="p">:</span><span class="w">
+</span><span class="w">     </span><span class="nt">databaseName</span><span class="p">:</span><span class="w"> </span><span class="l">mi-proyecto</span><span class="w">
+</span><span class="w">     </span><span class="nt">serverName</span><span class="p">:</span><span class="w"> </span><span class="l">${OPENSHIFT_POSTGRESQL_DB_HOST}</span><span class="w">
+</span><span class="w">     </span><span class="nt">username</span><span class="p">:</span><span class="w"> </span><span class="l">${OPENSHIFT_POSTGRESQL_DB_USERNAME}</span><span class="w">
+</span><span class="w">     </span><span class="nt">password</span><span class="p">:</span><span class="w"> </span><span class="l">${OPENSHIFT_POSTGRESQL_DB_PASSWORD}</span><span class="w">
 </span><span class="w">    </span></code></pre></div>
 </li>
 </ol>
@@ -233,7 +233,6 @@ if (!doNotTrack) {
 	ga('send', 'pageview');
 }
 </script>
-
 
   <script src="https://rilopez.com/js/app.js"></script>
   
