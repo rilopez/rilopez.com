@@ -1,7 +1,7 @@
 --- 
 date: 2021-05-04T23:17:52-05:00
 title: "Bazel Docker Install Sqlite"
-tags: ["TIL"]
+tags: ["TIL", "bazel"]
 ---
 
 

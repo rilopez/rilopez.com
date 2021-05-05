@@ -6,13 +6,40 @@
     <description>Recent content in Tags on Isaac Lopez</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 04 May 2021 23:17:52 -0500</lastBuildDate><atom:link href="https://rilopez.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 05 May 2021 12:15:11 -0500</lastBuildDate><atom:link href="https://rilopez.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>git</title>
+      <link>https://rilopez.com/tags/git/</link>
+      <pubDate>Wed, 05 May 2021 12:15:11 -0500</pubDate>
+      
+      <guid>https://rilopez.com/tags/git/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>TIL</title>
       <link>https://rilopez.com/tags/til/</link>
-      <pubDate>Tue, 04 May 2021 23:17:52 -0500</pubDate>
+      <pubDate>Wed, 05 May 2021 12:15:11 -0500</pubDate>
       
       <guid>https://rilopez.com/tags/til/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>bazel</title>
+      <link>https://rilopez.com/tags/bazel/</link>
+      <pubDate>Tue, 04 May 2021 23:17:52 -0500</pubDate>
+      
+      <guid>https://rilopez.com/tags/bazel/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>web development</title>
+      <link>https://rilopez.com/tags/web-development/</link>
+      <pubDate>Tue, 04 May 2021 22:47:55 -0500</pubDate>
+      
+      <guid>https://rilopez.com/tags/web-development/</guid>
       <description></description>
     </item>
     

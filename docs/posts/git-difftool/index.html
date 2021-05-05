@@ -11,22 +11,22 @@
 
     <meta property="og:site_name" content="Isaac Lopez">
     <meta property="og:title" content="
-  Bazel Docker Install Sqlite - Isaac Lopez
+  Git Difftool - Isaac Lopez
 ">
     <meta property="og:description" content="">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://rilopez.com/posts/bazel-docker-install-sqlite/">
+    <meta property="og:url" content="https://rilopez.com/posts/git-difftool/">
     <meta property="og:image" content="https://rilopez.com/">
     <meta name="twitter:card" content="summary">
-    <meta name="twitter:site" content="https://rilopez.com/posts/bazel-docker-install-sqlite/">
+    <meta name="twitter:site" content="https://rilopez.com/posts/git-difftool/">
     <meta name="twitter:image" content="https://rilopez.com/">
 
     <base href="https://rilopez.com/">
     <title>
-  Bazel Docker Install Sqlite - Isaac Lopez
+  Git Difftool - Isaac Lopez
 </title>
 
-    <link rel="canonical" href="https://rilopez.com/posts/bazel-docker-install-sqlite/">
+    <link rel="canonical" href="https://rilopez.com/posts/git-difftool/">
     
     
     <link rel="stylesheet" href="https://rilopez.com/css/normalize.css ">
@@ -86,14 +86,14 @@
   <section class="container post">
   <article>
     <header>
-      <h1 class="title">Bazel Docker Install Sqlite</h1>
-      <h2 class="date">May 4, 2021
+      <h1 class="title">Git Difftool</h1>
+      <h2 class="date">May 5, 2021
       
 <span class="post-tags">
         
           #<a href="https://rilopez.com/tags/til">TIL</a>&nbsp;
         
-          #<a href="https://rilopez.com/tags/bazel">bazel</a>&nbsp;
+          #<a href="https://rilopez.com/tags/git">git</a>&nbsp;
         
       </span>
 
@@ -103,36 +103,19 @@
     </header>
 
 
-    <p>Some time ago the bazel docker rules did not allow the use of <code>RUN</code> because of two main reasons:</p>
-<ol>
-<li>Virtually everything folks do in RUN isn&rsquo;t reproducible.</li>
-<li>The way the Docker daemon evaluates RUN is never reproducible.</li>
-</ol>
-<p>Fortunately that changed, now they provide rules not only to <code>RUN</code> (and create commits/layers) but
-also specific rules to download &amp; install system packages.</p>
-<p>Here an example on how to install sqlite into a ubuntu base image</p>
-<div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="n">download_pkgs</span><span class="p">(</span>
-    <span class="n">name</span> <span class="o">=</span> <span class="s2">&#34;sqlite_pkgs&#34;</span><span class="p">,</span>
-    <span class="n">image_tar</span> <span class="o">=</span> <span class="s2">&#34;@ubuntu1604//image&#34;</span><span class="p">,</span>
-    <span class="n">packages</span> <span class="o">=</span> <span class="p">[</span>
-        <span class="s2">&#34;libsqlite3-dev&#34;</span><span class="p">,</span>
-        <span class="s2">&#34;sqlite3&#34;</span><span class="p">,</span>
-    <span class="p">],</span>
-<span class="p">)</span>
-
-<span class="n">install_pkgs</span><span class="p">(</span>
-    <span class="n">name</span> <span class="o">=</span> <span class="s2">&#34;sqlite_pkgs_image&#34;</span><span class="p">,</span>
-    <span class="n">image_tar</span> <span class="o">=</span> <span class="s2">&#34;@ubuntu1604//image&#34;</span><span class="p">,</span>
-    <span class="n">installables_tar</span> <span class="o">=</span> <span class="s2">&#34;:sqlite_pkgs.tar&#34;</span><span class="p">,</span>
-    <span class="n">installation_cleanup_commands</span> <span class="o">=</span> <span class="s2">&#34;rm -rf /var/lib/apt/lists/*&#34;</span><span class="p">,</span>
-    <span class="n">output_image_name</span> <span class="o">=</span> <span class="s2">&#34;sqlite_pkgs_image&#34;</span><span class="p">,</span>
-<span class="p">)</span>
-</code></pre></div><p>more examples:</p>
-<ul>
-<li><a href="https://github.com/bazelbuild/rules_docker/blob/master/testing/examples/run_instruction_apt_pkgs/BUILD">apt packages</a></li>
-<li><a href="https://github.com/bazelbuild/rules_docker/blob/master/testing/examples/run_instruction_arbitrary/BUILD">run arbitrary instructions</a></li>
-</ul>
-
+    <p>I am so used to work with jetbrain tools that I seldom  use <code>git diff</code> and almost never configure and special diff tool.
+Today I learned how to setup <a href="https://meldmerge.org/">meld</a> as diff tool,</p>
+<p>I added this settings to my <code>~/.gitconfig</code></p>
+<div class="highlight"><pre class="chroma"><code class="language-ini" data-lang="ini"><span class="k">[diff]</span>
+    <span class="na">tool</span> <span class="o">=</span> <span class="s">meld</span>
+<span class="k">[difftool]</span>
+    <span class="na">prompt</span> <span class="o">=</span> <span class="s">false</span>
+<span class="k">[difftool &#34;meld&#34;]</span>
+    <span class="na">cmd</span> <span class="o">=</span> <span class="s">meld &#34;$LOCAL&#34; &#34;$REMOTE&#34;</span>
+</code></pre></div><p>You can change the order of the diff panes by changing the meld command arguments</p>
+<div class="highlight"><pre class="chroma"><code class="language-ini" data-lang="ini"><span class="k">[difftool &#34;meld&#34;]</span>
+<span class="na">cmd</span> <span class="o">=</span> <span class="s">meld &#34;$REMOTE&#34; &#34;$LOCAL&#34;  # remote changes will appear in the right pane, local in the left</span>
+</code></pre></div>
   </article>
 
   <br/>

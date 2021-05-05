@@ -8,6 +8,17 @@
     <language>en</language>
     <lastBuildDate>Sat, 02 Feb 2019 18:47:45 +0000</lastBuildDate><atom:link href="https://rilopez.com/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Git Difftool</title>
+      <link>https://rilopez.com/posts/git-difftool/</link>
+      <pubDate>Wed, 05 May 2021 12:15:11 -0500</pubDate>
+      
+      <guid>https://rilopez.com/posts/git-difftool/</guid>
+      <description>I am so used to work with jetbrain tools that I seldom use git diff and almost never configure and special diff tool. Today I learned how to setup meld as diff tool,
+I added this settings to my ~/.gitconfig
+[diff] tool = meld [difftool] prompt = false [difftool &amp;#34;meld&amp;#34;] cmd = meld &amp;#34;$LOCAL&amp;#34; &amp;#34;$REMOTE&amp;#34; You can change the order of the diff panes by changing the meld command arguments</description>
+    </item>
+    
+    <item>
       <title>Bazel Docker Install Sqlite</title>
       <link>https://rilopez.com/posts/bazel-docker-install-sqlite/</link>
       <pubDate>Tue, 04 May 2021 23:17:52 -0500</pubDate>

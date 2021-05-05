@@ -2,19 +2,31 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://rilopez.com/tags/git/</loc>
+    <lastmod>2021-05-05T12:15:11-05:00</lastmod>
+  </url><url>
+    <loc>https://rilopez.com/posts/git-difftool/</loc>
+    <lastmod>2021-05-05T12:15:11-05:00</lastmod>
+  </url><url>
+    <loc>https://rilopez.com/</loc>
+    <lastmod>2021-05-05T12:15:11-05:00</lastmod>
+  </url><url>
+    <loc>https://rilopez.com/tags/</loc>
+    <lastmod>2021-05-05T12:15:11-05:00</lastmod>
+  </url><url>
+    <loc>https://rilopez.com/tags/til/</loc>
+    <lastmod>2021-05-05T12:15:11-05:00</lastmod>
+  </url><url>
+    <loc>https://rilopez.com/tags/bazel/</loc>
+    <lastmod>2021-05-04T23:17:52-05:00</lastmod>
+  </url><url>
     <loc>https://rilopez.com/posts/bazel-docker-install-sqlite/</loc>
     <lastmod>2021-05-04T23:17:52-05:00</lastmod>
   </url><url>
-    <loc>https://rilopez.com/</loc>
-    <lastmod>2021-05-04T23:17:52-05:00</lastmod>
-  </url><url>
-    <loc>https://rilopez.com/tags/</loc>
-    <lastmod>2021-05-04T23:17:52-05:00</lastmod>
-  </url><url>
-    <loc>https://rilopez.com/tags/til/</loc>
-    <lastmod>2021-05-04T23:17:52-05:00</lastmod>
-  </url><url>
     <loc>https://rilopez.com/posts/svg-masks/</loc>
+    <lastmod>2021-05-04T22:47:55-05:00</lastmod>
+  </url><url>
+    <loc>https://rilopez.com/tags/web-development/</loc>
     <lastmod>2021-05-04T22:47:55-05:00</lastmod>
   </url><url>
     <loc>https://rilopez.com/authors/</loc>
