@@ -6,7 +6,28 @@
     <description>Recent content on Isaac Lopez</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 25 Apr 2021 23:01:26 +0000</lastBuildDate><atom:link href="https://rilopez.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 04 May 2021 23:17:52 -0500</lastBuildDate><atom:link href="https://rilopez.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bazel Docker Install Sqlite</title>
+      <link>https://rilopez.com/posts/bazel-docker-install-sqlite/</link>
+      <pubDate>Tue, 04 May 2021 23:17:52 -0500</pubDate>
+      
+      <guid>https://rilopez.com/posts/bazel-docker-install-sqlite/</guid>
+      <description>Some time ago the bazel docker rules did not allow the use of RUN because of two main reasons:
+ Virtually everything folks do in RUN isn&amp;rsquo;t reproducible. The way the Docker daemon evaluates RUN is never reproducible.  Fortunately that changed, now they provide rules not only to RUN (and create commits/layers) but also specific rules to download &amp;amp; install system packages.
+Here an example on how to install sqlite into a ubuntu base image</description>
+    </item>
+    
+    <item>
+      <title>Svg Masks</title>
+      <link>https://rilopez.com/posts/svg-masks/</link>
+      <pubDate>Tue, 04 May 2021 22:47:55 -0500</pubDate>
+      
+      <guid>https://rilopez.com/posts/svg-masks/</guid>
+      <description>Today after some pain learned how to create a mask to &amp;ldquo;carve&amp;rdquo; a hole with a given shape
+&amp;lt;html&amp;gt; &amp;lt;body style=&amp;#34;background: url(&amp;#39;https://64.media.tumblr.com/7bed8273f621486faecdd407969aef51/tumblr_otfcxeacdO1slhhf0o1_1280.jpg&amp;#39;) center center / cover no-repeat;&amp;#34;&amp;gt; &amp;lt;svg className=&amp;#34;text-demo&amp;#34; viewBox=&amp;#34;0 0 600 400&amp;#34; width=&amp;#34;600&amp;#34; height=&amp;#34;400&amp;#34;&amp;gt; &amp;lt;defs&amp;gt; &amp;lt;mask id=&amp;#34;text-mask&amp;#34;&amp;gt; &amp;lt;rect width=&amp;#34;100%&amp;#34; height=&amp;#34;100%&amp;#34; fill=&amp;#34;white&amp;#34; /&amp;gt; &amp;lt;text x=&amp;#34;60&amp;#34; y=&amp;#34;220&amp;#34; id=&amp;#34;mySubtext&amp;#34; style=&amp;#34;font-size: 150px; font-weight: bold;&amp;#34;&amp;gt; A Mask &amp;lt;/text&amp;gt; &amp;lt;/mask&amp;gt; &amp;lt;/defs&amp;gt; &amp;lt;ellipse cx=&amp;#34;300&amp;#34; cy=&amp;#34;200&amp;#34; rx=&amp;#34;300&amp;#34; ry=&amp;#34;150&amp;#34; fill=&amp;#34;white&amp;#34; mask=&amp;#34;url(#text-mask)&amp;#34; /&amp;gt; &amp;lt;/svg&amp;gt; &amp;lt;/body&amp;gt; &amp;lt;/html&amp;gt; </description>
+    </item>
+    
     <item>
       <title>My Life And Work</title>
       <link>https://rilopez.com/books/my-life-and-work/</link>

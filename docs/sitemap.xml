@@ -2,6 +2,21 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://rilopez.com/posts/bazel-docker-install-sqlite/</loc>
+    <lastmod>2021-05-04T23:17:52-05:00</lastmod>
+  </url><url>
+    <loc>https://rilopez.com/</loc>
+    <lastmod>2021-05-04T23:17:52-05:00</lastmod>
+  </url><url>
+    <loc>https://rilopez.com/tags/</loc>
+    <lastmod>2021-05-04T23:17:52-05:00</lastmod>
+  </url><url>
+    <loc>https://rilopez.com/tags/til/</loc>
+    <lastmod>2021-05-04T23:17:52-05:00</lastmod>
+  </url><url>
+    <loc>https://rilopez.com/posts/svg-masks/</loc>
+    <lastmod>2021-05-04T22:47:55-05:00</lastmod>
+  </url><url>
     <loc>https://rilopez.com/authors/</loc>
     <lastmod>2021-04-25T23:01:26+00:00</lastmod>
   </url><url>
@@ -11,13 +26,7 @@
     <loc>https://rilopez.com/authors/henry-ford/</loc>
     <lastmod>2021-04-25T23:01:26+00:00</lastmod>
   </url><url>
-    <loc>https://rilopez.com/</loc>
-    <lastmod>2021-04-25T23:01:26+00:00</lastmod>
-  </url><url>
     <loc>https://rilopez.com/books/my-life-and-work/</loc>
-    <lastmod>2021-04-25T23:01:26+00:00</lastmod>
-  </url><url>
-    <loc>https://rilopez.com/tags/</loc>
     <lastmod>2021-04-25T23:01:26+00:00</lastmod>
   </url><url>
     <loc>https://rilopez.com/books/kissinger-a-biography/</loc>

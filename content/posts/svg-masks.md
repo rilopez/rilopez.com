@@ -1,5 +1,4 @@
 --- 
-draft: true
 date: 2021-05-04T22:47:55-05:00
 title: "Svg Masks"
 tags: ["TIL"]

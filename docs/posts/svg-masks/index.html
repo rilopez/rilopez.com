@@ -6,27 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <meta name="author" content="Isaac Lopez">
-    <meta name="description" content="Isaac Lopez&#39;s personal website">
+    <meta name="description" content="https://rilopez.com/">
     <meta name="keywords" content="blog,developer,personal">
 
     <meta property="og:site_name" content="Isaac Lopez">
     <meta property="og:title" content="
-  Blog - Isaac Lopez
+  Svg Masks - Isaac Lopez
 ">
-    <meta property="og:description" content="Isaac Lopez&#39;s personal website">
+    <meta property="og:description" content="">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://rilopez.com/posts/">
-    <meta property="og:image" content="https://rilopez.com/images/tn.png">
+    <meta property="og:url" content="https://rilopez.com/posts/svg-masks/">
+    <meta property="og:image" content="https://rilopez.com/">
     <meta name="twitter:card" content="summary">
-    <meta name="twitter:site" content="https://rilopez.com/posts/">
-    <meta name="twitter:image" content="https://rilopez.com/images/tn.png">
+    <meta name="twitter:site" content="https://rilopez.com/posts/svg-masks/">
+    <meta name="twitter:image" content="https://rilopez.com/">
 
     <base href="https://rilopez.com/">
     <title>
-  Blog - Isaac Lopez
+  Svg Masks - Isaac Lopez
 </title>
 
-    <link rel="canonical" href="https://rilopez.com/posts/">
+    <link rel="canonical" href="https://rilopez.com/posts/svg-masks/">
     
     
     <link rel="stylesheet" href="https://rilopez.com/css/normalize.css ">
@@ -41,9 +41,6 @@
     <link rel="icon" type="image/png" href="https://rilopez.com/images/favicon-32x32.png" sizes="32x32">
     <link rel="icon" type="image/png" href="https://rilopez.com/images/favicon-16x16.png" sizes="16x16">
 
-    
-      <link href="https://rilopez.com/posts/index.xml" rel="alternate" type="application/rss+xml" title="Isaac Lopez" />
-      <link href="https://rilopez.com/posts/index.xml" rel="feed" type="application/rss+xml" title="Isaac Lopez" />
     
 
     <meta name="generator" content="Hugo 0.82.0" />
@@ -86,65 +83,49 @@
 
       <div class="content">
         
-    <section class="container list">
-      <h1 class="title">Blog</h1>
-
-        <p>Something I want to get out of my mind and  share with the world.</p>
-
-      <ul>
+  <section class="container post">
+  <article>
+    <header>
+      <h1 class="title">Svg Masks</h1>
+      <h2 class="date">May 4, 2021
+      
+<span class="post-tags">
         
-        <li>
-          <span>November 2, 2009</span><a href="/posts/the-energy-project-by-tony-schwartz/">The Energy Project by Tony Schwartz</a>
-        </li>
+          #<a href="https://rilopez.com/tags/til">TIL</a>&nbsp;
         
-        <li>
-          <span>September 20, 2009</span><a href="/posts/no-arms-no-legs-no-worries/">No Arms, No Legs, No Worries by Nick Vujicic </a>
-        </li>
-        
-        <li>
-          <span>January 11, 2009</span><a href="/posts/marshall-goldsmith-leading-at-google/">Marshall Goldsmith | Talk @ google</a>
-        </li>
-        
-      </ul>
+      </span>
+
+      </h2>
+
       
+    </header>
 
 
+    <p>Today after some pain learned how to create a mask to &ldquo;carve&rdquo; a hole with a given shape</p>
+<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">&lt;html&gt;
+&lt;body style=&#34;background: url(&#39;https://64.media.tumblr.com/7bed8273f621486faecdd407969aef51/tumblr_otfcxeacdO1slhhf0o1_1280.jpg&#39;) center center / cover no-repeat;&#34;&gt;
+&lt;svg className=&#34;text-demo&#34; viewBox=&#34;0 0 600 400&#34; width=&#34;600&#34; height=&#34;400&#34;&gt;
+    &lt;defs&gt;
+        &lt;mask id=&#34;text-mask&#34;&gt;
+            &lt;rect width=&#34;100%&#34; height=&#34;100%&#34; fill=&#34;white&#34; /&gt;
+            &lt;text x=&#34;60&#34; y=&#34;220&#34; id=&#34;mySubtext&#34; style=&#34;font-size: 150px; font-weight: bold;&#34;&gt;
+                A Mask
+            &lt;/text&gt;
+        &lt;/mask&gt;
+    &lt;/defs&gt;
+    &lt;ellipse cx=&#34;300&#34; cy=&#34;200&#34; rx=&#34;300&#34; ry=&#34;150&#34; fill=&#34;white&#34; mask=&#34;url(#text-mask)&#34; /&gt;
+&lt;/svg&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</code></pre></div><p><img src="/images/svg-mask-example.png#center" alt="Text Mask Example "></p>
 
+  </article>
 
+  <br/>
 
-<ul class="pagination">
   
-    
-    <li><a href="/posts/">&laquo;</a></li>
-    
-    <li class="hidden"><a href="/posts/">&lsaquo;</a></li>
-  
-  
-    
-    
-      
-    
-    
-      
-      <li><a href="/posts/">1</a></li>
-      
-    
-  
-    
-    
-      
-    
-    
-      
-      <li>2</li>
-      
-    
-  
-  
-</ul>
 
-
-    </section>
+</section>
 
 
       </div>

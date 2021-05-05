@@ -6,27 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <meta name="author" content="Isaac Lopez">
-    <meta name="description" content="Isaac Lopez&#39;s personal website">
+    <meta name="description" content="https://rilopez.com/">
     <meta name="keywords" content="blog,developer,personal">
 
     <meta property="og:site_name" content="Isaac Lopez">
     <meta property="og:title" content="
-  Blog - Isaac Lopez
+  Bazel Docker Install Sqlite - Isaac Lopez
 ">
-    <meta property="og:description" content="Isaac Lopez&#39;s personal website">
+    <meta property="og:description" content="">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://rilopez.com/posts/">
-    <meta property="og:image" content="https://rilopez.com/images/tn.png">
+    <meta property="og:url" content="https://rilopez.com/posts/bazel-docker-install-sqlite/">
+    <meta property="og:image" content="https://rilopez.com/">
     <meta name="twitter:card" content="summary">
-    <meta name="twitter:site" content="https://rilopez.com/posts/">
-    <meta name="twitter:image" content="https://rilopez.com/images/tn.png">
+    <meta name="twitter:site" content="https://rilopez.com/posts/bazel-docker-install-sqlite/">
+    <meta name="twitter:image" content="https://rilopez.com/">
 
     <base href="https://rilopez.com/">
     <title>
-  Blog - Isaac Lopez
+  Bazel Docker Install Sqlite - Isaac Lopez
 </title>
 
-    <link rel="canonical" href="https://rilopez.com/posts/">
+    <link rel="canonical" href="https://rilopez.com/posts/bazel-docker-install-sqlite/">
     
     
     <link rel="stylesheet" href="https://rilopez.com/css/normalize.css ">
@@ -41,9 +41,6 @@
     <link rel="icon" type="image/png" href="https://rilopez.com/images/favicon-32x32.png" sizes="32x32">
     <link rel="icon" type="image/png" href="https://rilopez.com/images/favicon-16x16.png" sizes="16x16">
 
-    
-      <link href="https://rilopez.com/posts/index.xml" rel="alternate" type="application/rss+xml" title="Isaac Lopez" />
-      <link href="https://rilopez.com/posts/index.xml" rel="feed" type="application/rss+xml" title="Isaac Lopez" />
     
 
     <meta name="generator" content="Hugo 0.82.0" />
@@ -86,65 +83,61 @@
 
       <div class="content">
         
-    <section class="container list">
-      <h1 class="title">Blog</h1>
-
-        <p>Something I want to get out of my mind and  share with the world.</p>
-
-      <ul>
+  <section class="container post">
+  <article>
+    <header>
+      <h1 class="title">Bazel Docker Install Sqlite</h1>
+      <h2 class="date">May 4, 2021
+      
+<span class="post-tags">
         
-        <li>
-          <span>November 2, 2009</span><a href="/posts/the-energy-project-by-tony-schwartz/">The Energy Project by Tony Schwartz</a>
-        </li>
+          #<a href="https://rilopez.com/tags/til">TIL</a>&nbsp;
         
-        <li>
-          <span>September 20, 2009</span><a href="/posts/no-arms-no-legs-no-worries/">No Arms, No Legs, No Worries by Nick Vujicic </a>
-        </li>
-        
-        <li>
-          <span>January 11, 2009</span><a href="/posts/marshall-goldsmith-leading-at-google/">Marshall Goldsmith | Talk @ google</a>
-        </li>
-        
-      </ul>
+      </span>
+
+      </h2>
+
       
+    </header>
 
 
+    <p>Some time ago the bazel docker rules did not allow the use of <code>RUN</code> because of two main reasons:</p>
+<ol>
+<li>Virtually everything folks do in RUN isn&rsquo;t reproducible.</li>
+<li>The way the Docker daemon evaluates RUN is never reproducible.</li>
+</ol>
+<p>Fortunately that changed, now they provide rules not only to <code>RUN</code> (and create commits/layers) but
+also specific rules to download &amp; install system packages.</p>
+<p>Here an example on how to install sqlite into a ubuntu base image</p>
+<div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="n">download_pkgs</span><span class="p">(</span>
+    <span class="n">name</span> <span class="o">=</span> <span class="s2">&#34;sqlite_pkgs&#34;</span><span class="p">,</span>
+    <span class="n">image_tar</span> <span class="o">=</span> <span class="s2">&#34;@ubuntu1604//image&#34;</span><span class="p">,</span>
+    <span class="n">packages</span> <span class="o">=</span> <span class="p">[</span>
+        <span class="s2">&#34;libsqlite3-dev&#34;</span><span class="p">,</span>
+        <span class="s2">&#34;sqlite3&#34;</span><span class="p">,</span>
+    <span class="p">],</span>
+<span class="p">)</span>
 
-
-
-<ul class="pagination">
-  
-    
-    <li><a href="/posts/">&laquo;</a></li>
-    
-    <li class="hidden"><a href="/posts/">&lsaquo;</a></li>
-  
-  
-    
-    
-      
-    
-    
-      
-      <li><a href="/posts/">1</a></li>
-      
-    
-  
-    
-    
-      
-    
-    
-      
-      <li>2</li>
-      
-    
-  
-  
+<span class="n">install_pkgs</span><span class="p">(</span>
+    <span class="n">name</span> <span class="o">=</span> <span class="s2">&#34;sqlite_pkgs_image&#34;</span><span class="p">,</span>
+    <span class="n">image_tar</span> <span class="o">=</span> <span class="s2">&#34;@ubuntu1604//image&#34;</span><span class="p">,</span>
+    <span class="n">installables_tar</span> <span class="o">=</span> <span class="s2">&#34;:sqlite_pkgs.tar&#34;</span><span class="p">,</span>
+    <span class="n">installation_cleanup_commands</span> <span class="o">=</span> <span class="s2">&#34;rm -rf /var/lib/apt/lists/*&#34;</span><span class="p">,</span>
+    <span class="n">output_image_name</span> <span class="o">=</span> <span class="s2">&#34;sqlite_pkgs_image&#34;</span><span class="p">,</span>
+<span class="p">)</span>
+</code></pre></div><p>more examples:</p>
+<ul>
+<li><a href="https://github.com/bazelbuild/rules_docker/blob/master/testing/examples/run_instruction_apt_pkgs/BUILD">apt packages</a></li>
+<li><a href="https://github.com/bazelbuild/rules_docker/blob/master/testing/examples/run_instruction_arbitrary/BUILD">run arbitrary instructions</a></li>
 </ul>
 
+  </article>
 
-    </section>
+  <br/>
+
+  
+
+</section>
 
 
       </div>
