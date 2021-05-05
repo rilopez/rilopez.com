@@ -3,7 +3,6 @@ date: 2021-04-25T23:01:26Z
 title: "My Life And Work"
 tags: ["biographies"]
 authors: ["Henry Ford"]
-isbn: ""
 ---
 
 Father was Farmer,  Herny was more interested in using machines to do the work. Started by repairing watches, and although he liked the engineering craftsmanship required to make a great watch he had the preference to work on machines that help to make and activity  more efficient. 
