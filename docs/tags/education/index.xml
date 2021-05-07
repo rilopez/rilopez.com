@@ -6,7 +6,11 @@
     <description>Recent content in education on Isaac Lopez</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 26 May 2019 14:56:02 +0000</lastBuildDate><atom:link href="https://rilopez.com/tags/education/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 26 May 2019 14:56:02 +0000</lastBuildDate>
+    
+	<atom:link href="https://rilopez.com/tags/education/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>Academy Lessons Learned</title>
       <link>https://rilopez.com/posts/academy-lessons-learned/</link>

@@ -6,27 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <meta name="author" content="Isaac Lopez">
-    <meta name="description" content="Isaac Lopez&#39;s personal website">
+    <meta name="description" content="https://rilopez.com/">
     <meta name="keywords" content="blog,developer,personal">
 
     <meta property="og:site_name" content="Isaac Lopez">
     <meta property="og:title" content="
-  devops - Isaac Lopez
+  Log Outgoing Node Http Requests - Isaac Lopez
 ">
-    <meta property="og:description" content="Isaac Lopez&#39;s personal website">
+    <meta property="og:description" content="">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://rilopez.com/tags/devops/">
-    <meta property="og:image" content="https://rilopez.com/images/tn.png">
+    <meta property="og:url" content="https://rilopez.com/posts/log-outgoing-node-http-requests/">
+    <meta property="og:image" content="https://rilopez.com/">
     <meta name="twitter:card" content="summary">
-    <meta name="twitter:site" content="https://rilopez.com/tags/devops/">
-    <meta name="twitter:image" content="https://rilopez.com/images/tn.png">
+    <meta name="twitter:site" content="https://rilopez.com/posts/log-outgoing-node-http-requests/">
+    <meta name="twitter:image" content="https://rilopez.com/">
 
     <base href="https://rilopez.com/">
     <title>
-  devops - Isaac Lopez
+  Log Outgoing Node Http Requests - Isaac Lopez
 </title>
 
-    <link rel="canonical" href="https://rilopez.com/tags/devops/">
+    <link rel="canonical" href="https://rilopez.com/posts/log-outgoing-node-http-requests/">
     
     
     <link rel="stylesheet" href="https://rilopez.com/css/normalize.css ">
@@ -41,9 +41,6 @@
     <link rel="icon" type="image/png" href="https://rilopez.com/images/favicon-32x32.png" sizes="32x32">
     <link rel="icon" type="image/png" href="https://rilopez.com/images/favicon-16x16.png" sizes="16x16">
 
-    
-      <link href="https://rilopez.com/tags/devops/index.xml" rel="alternate" type="application/rss+xml" title="Isaac Lopez" />
-      <link href="https://rilopez.com/tags/devops/index.xml" rel="feed" type="application/rss+xml" title="Isaac Lopez" />
     
 
     <meta name="generator" content="Hugo 0.74.3" />
@@ -86,21 +83,41 @@
 
       <div class="content">
         
-  <section class="container list">
-  <h1 class="title">devops</h1>
-  <ul>
-    
-    <li>
-      <span>January 26, 2015</span><a href="/posts/jaimito-el-cartero-oriented-programming/">Learning new tricks - JHipster: AngularJS, Spring Boot</a>
-    </li>
-    
-  </ul>
+  <section class="container post">
+  <article>
+    <header>
+      <h1 class="title">Log Outgoing Node Http Requests</h1>
+      <h2 class="date">May 7, 2021
+      
+<span class="post-tags">
+        
+          #<a href="https://rilopez.com/tags/til">TIL</a>&nbsp;
+        
+      </span>
+
+      </h2>
+
+      
+    </header>
+
+
+    <p>This morning I had to debug a node proxy and needed to verify the external service request</p>
+<div class="highlight"><pre class="chroma"><code class="language-javascript" data-lang="javascript"><span class="kd">function</span> <span class="nx">requestLogger</span><span class="p">(</span><span class="nx">httpModule</span><span class="p">){</span>
+    <span class="kd">var</span> <span class="nx">original</span> <span class="o">=</span> <span class="nx">httpModule</span><span class="p">.</span><span class="nx">request</span>
+    <span class="nx">httpModule</span><span class="p">.</span><span class="nx">request</span> <span class="o">=</span> <span class="kd">function</span><span class="p">(</span><span class="nx">options</span><span class="p">,</span> <span class="nx">callback</span><span class="p">){</span>
+      <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">options</span><span class="p">.</span><span class="nx">href</span><span class="o">||</span><span class="nx">options</span><span class="p">.</span><span class="nx">proto</span><span class="o">+</span><span class="s2">&#34;://&#34;</span><span class="o">+</span><span class="nx">options</span><span class="p">.</span><span class="nx">host</span><span class="o">+</span><span class="nx">options</span><span class="p">.</span><span class="nx">path</span><span class="p">,</span> <span class="nx">options</span><span class="p">.</span><span class="nx">method</span><span class="p">)</span>
+      <span class="k">return</span> <span class="nx">original</span><span class="p">(</span><span class="nx">options</span><span class="p">,</span> <span class="nx">callback</span><span class="p">)</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+
+<span class="nx">requestLogger</span><span class="p">(</span><span class="nx">require</span><span class="p">(</span><span class="s1">&#39;http&#39;</span><span class="p">))</span>
+</code></pre></div><p>source: <a href="https://stackoverflow.com/questions/12964517/how-to-log-outgoing-https-requests-from-node-within-webstorm">stackoverflow</a></p>
+
+  </article>
+
+  <br/>
+
   
-
-
-
-
-
 
 </section>
 

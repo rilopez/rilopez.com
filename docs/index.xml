@@ -6,7 +6,21 @@
     <description>Recent content on Isaac Lopez</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 05 May 2021 12:15:11 -0500</lastBuildDate><atom:link href="https://rilopez.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 07 May 2021 09:31:15 -0500</lastBuildDate>
+    
+	<atom:link href="https://rilopez.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Log Outgoing Node Http Requests</title>
+      <link>https://rilopez.com/posts/log-outgoing-node-http-requests/</link>
+      <pubDate>Fri, 07 May 2021 09:31:15 -0500</pubDate>
+      
+      <guid>https://rilopez.com/posts/log-outgoing-node-http-requests/</guid>
+      <description>This morning I had to debug a node proxy and needed to verify the external service request
+function requestLogger(httpModule){ var original = httpModule.request httpModule.request = function(options, callback){ console.log(options.href||options.proto+&amp;#34;://&amp;#34;+options.host+options.path, options.method) return original(options, callback) } } requestLogger(require(&amp;#39;http&amp;#39;)) source: stackoverflow</description>
+    </item>
+    
     <item>
       <title>Git Difftool</title>
       <link>https://rilopez.com/posts/git-difftool/</link>

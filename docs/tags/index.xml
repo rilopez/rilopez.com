@@ -6,22 +6,26 @@
     <description>Recent content in Tags on Isaac Lopez</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 05 May 2021 12:15:11 -0500</lastBuildDate><atom:link href="https://rilopez.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 07 May 2021 09:31:15 -0500</lastBuildDate>
+    
+	<atom:link href="https://rilopez.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>TIL</title>
+      <link>https://rilopez.com/tags/til/</link>
+      <pubDate>Fri, 07 May 2021 09:31:15 -0500</pubDate>
+      
+      <guid>https://rilopez.com/tags/til/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>git</title>
       <link>https://rilopez.com/tags/git/</link>
       <pubDate>Wed, 05 May 2021 12:15:11 -0500</pubDate>
       
       <guid>https://rilopez.com/tags/git/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>TIL</title>
-      <link>https://rilopez.com/tags/til/</link>
-      <pubDate>Wed, 05 May 2021 12:15:11 -0500</pubDate>
-      
-      <guid>https://rilopez.com/tags/til/</guid>
       <description></description>
     </item>
     
