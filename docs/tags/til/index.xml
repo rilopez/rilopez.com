@@ -6,10 +6,21 @@
     <description>Recent content in TIL on Isaac Lopez</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 07 May 2021 09:31:15 -0500</lastBuildDate>
+    <lastBuildDate>Sun, 09 May 2021 00:16:18 -0500</lastBuildDate>
     
 	<atom:link href="https://rilopez.com/tags/til/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Newsboat Macro Open Default Browser</title>
+      <link>https://rilopez.com/posts/newsboat-macro-open-default-browser/</link>
+      <pubDate>Sun, 09 May 2021 00:16:18 -0500</pubDate>
+      
+      <guid>https://rilopez.com/posts/newsboat-macro-open-default-browser/</guid>
+      <description>My newsboat is configured to use w3m (a textonly browser) as default browser
+browser &amp;#34;w3m %u&amp;#34; from times to times you enconter some pages that does not look good on text-only browser , this config defines a macro to open the default browser by pressing ,m (COMMA + lowercase m)
+macro m set browser &amp;#34;xdg-open %u&amp;#34;; open-in-browser ; set browser &amp;#34;w3m %u&amp;#34; </description>
+    </item>
     
     <item>
       <title>Log Outgoing Node Http Requests</title>

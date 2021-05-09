@@ -6,27 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <meta name="author" content="Isaac Lopez">
-    <meta name="description" content="Isaac Lopez&#39;s personal website">
+    <meta name="description" content="https://rilopez.com/">
     <meta name="keywords" content="blog,developer,personal">
 
     <meta property="og:site_name" content="Isaac Lopez">
     <meta property="og:title" content="
-  Blog - Isaac Lopez
+  Newsboat Macro Open Default Browser - Isaac Lopez
 ">
-    <meta property="og:description" content="Isaac Lopez&#39;s personal website">
+    <meta property="og:description" content="">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://rilopez.com/posts/">
-    <meta property="og:image" content="https://rilopez.com/images/tn.png">
+    <meta property="og:url" content="https://rilopez.com/posts/newsboat-macro-open-default-browser/">
+    <meta property="og:image" content="https://rilopez.com/">
     <meta name="twitter:card" content="summary">
-    <meta name="twitter:site" content="https://rilopez.com/posts/">
-    <meta name="twitter:image" content="https://rilopez.com/images/tn.png">
+    <meta name="twitter:site" content="https://rilopez.com/posts/newsboat-macro-open-default-browser/">
+    <meta name="twitter:image" content="https://rilopez.com/">
 
     <base href="https://rilopez.com/">
     <title>
-  Blog - Isaac Lopez
+  Newsboat Macro Open Default Browser - Isaac Lopez
 </title>
 
-    <link rel="canonical" href="https://rilopez.com/posts/">
+    <link rel="canonical" href="https://rilopez.com/posts/newsboat-macro-open-default-browser/">
     
     
     <link rel="stylesheet" href="https://rilopez.com/css/normalize.css ">
@@ -41,9 +41,6 @@
     <link rel="icon" type="image/png" href="https://rilopez.com/images/favicon-32x32.png" sizes="32x32">
     <link rel="icon" type="image/png" href="https://rilopez.com/images/favicon-16x16.png" sizes="16x16">
 
-    
-      <link href="https://rilopez.com/posts/index.xml" rel="alternate" type="application/rss+xml" title="Isaac Lopez" />
-      <link href="https://rilopez.com/posts/index.xml" rel="feed" type="application/rss+xml" title="Isaac Lopez" />
     
 
     <meta name="generator" content="Hugo 0.74.3" />
@@ -86,77 +83,37 @@
 
       <div class="content">
         
-    <section class="container list">
-      <h1 class="title">Blog</h1>
-
-        <p>Something I want to get out of my mind and  share with the world.</p>
-
-      <ul>
-        
-        <li>
-          <span>January 26, 2015</span><a href="/posts/jaimito-el-cartero-oriented-programming/">Learning new tricks - JHipster: AngularJS, Spring Boot</a>
-        </li>
-        
-        <li>
-          <span>August 11, 2013</span><a href="/posts/what-you-are-really-meant-to-do-by-robert-steven-kaplan/">What You&#39;re Really Meant to Do | Robert Steven Kaplan </a>
-        </li>
-        
-        <li>
-          <span>December 20, 2009</span><a href="/posts/confessions-of-a-public-speaker-by-scott-berkun/">Confessions of a Public Speaker by Scott Berkun</a>
-        </li>
-        
-        <li>
-          <span>November 2, 2009</span><a href="/posts/the-energy-project-by-tony-schwartz/">The Energy Project by Tony Schwartz</a>
-        </li>
-        
-        <li>
-          <span>September 20, 2009</span><a href="/posts/no-arms-no-legs-no-worries/">No Arms, No Legs, No Worries by Nick Vujicic </a>
-        </li>
-        
-        <li>
-          <span>January 11, 2009</span><a href="/posts/marshall-goldsmith-leading-at-google/">Marshall Goldsmith | Talk @ google</a>
-        </li>
-        
-      </ul>
+  <section class="container post">
+  <article>
+    <header>
+      <h1 class="title">Newsboat Macro Open Default Browser</h1>
+      <h2 class="date">May 9, 2021
       
+<span class="post-tags">
+        
+          #<a href="https://rilopez.com/tags/til">TIL</a>&nbsp;
+        
+      </span>
+
+      </h2>
+
+      
+    </header>
 
 
+    <p>My <a href="https://newsboat.org/">newsboat</a> is configured to use <a href="http://w3m.sourceforge.net/">w3m</a> (a textonly browser) as default browser</p>
+<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">browser &#34;w3m %u&#34; 
+</code></pre></div><p>from times to times you enconter some pages that does not look good on text-only browser
+, this config defines a macro to open the default browser by pressing <code>,m</code>   (COMMA + lowercase m)</p>
+<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">macro m set browser &#34;xdg-open %u&#34;; open-in-browser ; set browser &#34;w3m %u&#34;
+</code></pre></div>
+  </article>
 
+  <br/>
 
-
-<ul class="pagination">
   
-    
-    <li><a href="/posts/">&laquo;</a></li>
-    
-    <li class="hidden"><a href="/posts/">&lsaquo;</a></li>
-  
-  
-    
-    
-      
-    
-    
-      
-      <li><a href="/posts/">1</a></li>
-      
-    
-  
-    
-    
-      
-    
-    
-      
-      <li>2</li>
-      
-    
-  
-  
-</ul>
 
-
-    </section>
+</section>
 
 
       </div>
