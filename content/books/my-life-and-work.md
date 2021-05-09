@@ -1,11 +1,11 @@
 --- 
 date: 2021-04-25T23:01:26Z
-title: "My Life And Work"
+title: "Henry Ford: My Life And Work"
 tags: ["biographies"]
 authors: ["Henry Ford"]
 ---
 
-Father was Farmer,  Herny was more interested in using machines to do the work. Started by repairing watches, and although he liked the engineering craftsmanship required to make a great watch he had the preference to work on machines that help to make and activity  more efficient. 
+Father was Farmer,  Henry was more interested in using machines to do the work. Started by repairing watches, and although he liked the engineering craftsmanship required to make a great watch he had the preference to work on machines that help to make and activity  more efficient. 
 
 Power and machinery, money and goods, are useful only as they set us free to live. They are but means to an end.
 
