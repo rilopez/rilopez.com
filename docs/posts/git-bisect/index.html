@@ -11,22 +11,22 @@
 
     <meta property="og:site_name" content="Isaac Lopez">
     <meta property="og:title" content="
-  Total Recall My Unbelievably true life story - Isaac Lopez
+  Git Bisect - Isaac Lopez
 ">
     <meta property="og:description" content="">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://rilopez.com/books/total-recall/">
+    <meta property="og:url" content="https://rilopez.com/posts/git-bisect/">
     <meta property="og:image" content="https://rilopez.com/">
     <meta name="twitter:card" content="summary">
-    <meta name="twitter:site" content="https://rilopez.com/books/total-recall/">
+    <meta name="twitter:site" content="https://rilopez.com/posts/git-bisect/">
     <meta name="twitter:image" content="https://rilopez.com/">
 
     <base href="https://rilopez.com/">
     <title>
-   Total Recall My Unbelievably true life story - Isaac Lopez
+  Git Bisect - Isaac Lopez
 </title>
 
-    <link rel="canonical" href="https://rilopez.com/books/total-recall/">
+    <link rel="canonical" href="https://rilopez.com/posts/git-bisect/">
     
     
     <link rel="stylesheet" href="https://rilopez.com/css/normalize.css ">
@@ -83,62 +83,42 @@
 
       <div class="content">
         
-   <section class="container page">
-    <article>
-        <header>
-            
+  <section class="container post">
+  <article>
+    <header>
+      <h1 class="title">Git Bisect</h1>
+      <h2 class="date">August 1, 2021
+      
 <span class="post-tags">
         
-          #<a href="https://rilopez.com/tags/biographies">biographies</a>&nbsp;
+          #<a href="https://rilopez.com/tags/til">TIL</a>&nbsp;
         
       </span>
 
-            <h1>Total Recall My Unbelievably true life story</h1>
-            <small>
-                
-     <span class="post-authors">
-        <strong>By</strong>  <a href="https://rilopez.com/authors/arnold-schwarzenegger">Arnold Schwarzenegger</a>
-           
-      </span>
+      </h2>
+
+      
+    </header>
 
 
-                <span class="date"><strong>Date Read:</strong>July 14, 2020</span>
-                
-            </small>
-        </header>
+    <p>Today I discovered a <code>git bisect</code> while reading the comments threads of this
+<a href="https://news.ycombinator.com/item?id=28024972">Hacker news post</a>,  The command uses a binary search algorithm to find which commit in your project history introduced
+a bug.</p>
+<p>Lets image that you discover a regression in your current branch state, and you want to know which commit introduce the culprit change</p>
+<div class="highlight"><pre class="chroma"><code class="language-sh" data-lang="sh">git bisect start  <span class="c1"># initialize the algorithm</span>
 
-        <p>One of the first movies that I watch in a beta video format was Terminator, I remember going to my
-friends house, it was amazing, a very real Robot killing everyone was very memorable for my young
-mind. One of  the scenes I remember the most was when the terminator steals a car,  Arnold describes
-that that scene was filmed without city permission  and very quick.</p>
-<p>Arnold have had an exceptional life, one of the anecdotes I liked the most was after being
-questioned about a hidden message (I, F, Y) to lawmakers, and that it could not be a coincidence
-because the chance of that happened by coincide was very low, Arnold answered by asking</p>
-<blockquote>
-<p>What are the odds of a guy from Austria</p>
-<ul>
-<li>Win multiple bodybuilding world contests</li>
-<li>Get rich in real state</li>
-<li>Became highest payed Hollywood actor</li>
-<li>Marry a Kennedy</li>
-<li>Became Governor of California</li>
-</ul>
-</blockquote>
-<p>My main take away of the book is hard work and a clear vision is everything in life.</p>
-<h2 id="arnolds-rules">Arnold&rsquo;s Rules</h2>
-<ol>
-<li>Reps, Reps, Reps</li>
-<li>Care for the body and the mind.</li>
-<li>The Day Has 24 hours, Use Them All.</li>
-</ol>
-<p>You can find out more about the book on</p>
-<ul>
-<li><a href="https://www.amazon.com/Total-Recall-Unbelievably-Thorndike-Nonfiction/dp/1410452107/ref=tmm_hrd_swatch_0?_encoding=UTF8&amp;qid=&amp;sr=%22">Amazon
-Page</a></li>
-<li><a href="https://www.goodreads.com/book/show/14546626-total-recall">Goodreads page</a></li>
-</ul>
+git bisect bad    <span class="c1"># marks the current commit as buggy </span>
+</code></pre></div><p><code>git bisect</code> selects a commit in the middle of your range history, check it out and outs something like</p>
+<div class="highlight"><pre class="chroma"><code class="language-sh" data-lang="sh">Bisecting: <span class="m">675</span> revisions left to <span class="nb">test</span> after this <span class="o">(</span>roughly <span class="m">10</span> steps<span class="o">)</span>
+</code></pre></div><p>then you compile &amp; test your checked version and if the bug is not there mark the commit as good <code>git bisect good</code> otherwhise <code>git bisect bad</code></p>
+<p>Eventually there will be no more revisions left to inspect and the command will print out a description of the first bad commit  and the reference <code>refs/bisect/bad</code> will point a at that commit</p>
 
-    </article>
+  </article>
+
+  <br/>
+
+  
+
 </section>
 
 

@@ -6,10 +6,17 @@
     <description>Recent content in TIL on Isaac Lopez</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 09 May 2021 00:16:18 -0500</lastBuildDate>
-    
-	<atom:link href="https://rilopez.com/tags/til/index.xml" rel="self" type="application/rss+xml" />
-    
+    <lastBuildDate>Sun, 01 Aug 2021 21:43:14 -0500</lastBuildDate><atom:link href="https://rilopez.com/tags/til/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Git Bisect</title>
+      <link>https://rilopez.com/posts/git-bisect/</link>
+      <pubDate>Sun, 01 Aug 2021 21:43:14 -0500</pubDate>
+      
+      <guid>https://rilopez.com/posts/git-bisect/</guid>
+      <description>Today I discovered a git bisect while reading the comments threads of this Hacker news post, The command uses a binary search algorithm to find which commit in your project history introduced a bug.
+Lets image that you discover a regression in your current branch state, and you want to know which commit introduce the culprit change
+git bisect start # initialize the algorithm git bisect bad # marks the current commit as buggy  git bisect selects a commit in the middle of your range history, check it out and outs something like</description>
+    </item>
     
     <item>
       <title>Newsboat Macro Open Default Browser</title>
