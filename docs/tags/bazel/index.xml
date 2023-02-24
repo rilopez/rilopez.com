@@ -14,7 +14,7 @@
       
       <guid>https://rilopez.com/posts/bazel-docker-install-sqlite/</guid>
       <description>Some time ago the bazel docker rules did not allow the use of RUN because of two main reasons:
- Virtually everything folks do in RUN isn&amp;rsquo;t reproducible. The way the Docker daemon evaluates RUN is never reproducible.  Fortunately that changed, now they provide rules not only to RUN (and create commits/layers) but also specific rules to download &amp;amp; install system packages.
+Virtually everything folks do in RUN isn&amp;rsquo;t reproducible. The way the Docker daemon evaluates RUN is never reproducible. Fortunately that changed, now they provide rules not only to RUN (and create commits/layers) but also specific rules to download &amp;amp; install system packages.
 Here an example on how to install sqlite into a ubuntu base image</description>
     </item>
     

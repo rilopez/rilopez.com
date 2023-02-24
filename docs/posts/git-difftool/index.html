@@ -41,9 +41,10 @@
     <link rel="icon" type="image/png" href="https://rilopez.com/images/favicon-32x32.png" sizes="32x32">
     <link rel="icon" type="image/png" href="https://rilopez.com/images/favicon-16x16.png" sizes="16x16">
 
+
     
 
-    <meta name="generator" content="Hugo 0.80.0" />
+    <meta name="generator" content="Hugo 0.110.0">
   </head>
 
   <body class="">
@@ -106,16 +107,16 @@
     <p>I am so used to work with jetbrain tools that I seldom  use <code>git diff</code> and almost never configure and special diff tool.
 Today I learned how to setup <a href="https://meldmerge.org/">meld</a> as diff tool,</p>
 <p>I added this settings to my <code>~/.gitconfig</code></p>
-<div class="highlight"><pre class="chroma"><code class="language-ini" data-lang="ini"><span class="k">[diff]</span>
-    <span class="na">tool</span> <span class="o">=</span> <span class="s">meld</span>
-<span class="k">[difftool]</span>
-    <span class="na">prompt</span> <span class="o">=</span> <span class="s">false</span>
-<span class="k">[difftool &#34;meld&#34;]</span>
-    <span class="na">cmd</span> <span class="o">=</span> <span class="s">meld &#34;$LOCAL&#34; &#34;$REMOTE&#34;</span>
-</code></pre></div><p>You can change the order of the diff panes by changing the meld command arguments</p>
-<div class="highlight"><pre class="chroma"><code class="language-ini" data-lang="ini"><span class="k">[difftool &#34;meld&#34;]</span>
-<span class="na">cmd</span> <span class="o">=</span> <span class="s">meld &#34;$REMOTE&#34; &#34;$LOCAL&#34;  # remote changes will appear in the right pane, local in the left</span>
-</code></pre></div>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-ini" data-lang="ini"><span class="line"><span class="cl"><span class="k">[diff]</span>
+</span></span><span class="line"><span class="cl">    <span class="na">tool</span> <span class="o">=</span> <span class="s">meld</span>
+</span></span><span class="line"><span class="cl"><span class="k">[difftool]</span>
+</span></span><span class="line"><span class="cl">    <span class="na">prompt</span> <span class="o">=</span> <span class="s">false</span>
+</span></span><span class="line"><span class="cl"><span class="k">[difftool &#34;meld&#34;]</span>
+</span></span><span class="line"><span class="cl">    <span class="na">cmd</span> <span class="o">=</span> <span class="s">meld &#34;$LOCAL&#34; &#34;$REMOTE&#34;</span>
+</span></span></code></pre></div><p>You can change the order of the diff panes by changing the meld command arguments</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-ini" data-lang="ini"><span class="line"><span class="cl"><span class="k">[difftool &#34;meld&#34;]</span>
+</span></span><span class="line"><span class="cl"><span class="na">cmd</span> <span class="o">=</span> <span class="s">meld &#34;$REMOTE&#34; &#34;$LOCAL&#34;  # remote changes will appear in the right pane, local in the left</span>
+</span></span></code></pre></div>
   </article>
 
   <br/>
@@ -133,7 +134,7 @@ Today I learned how to setup <a href="https://meldmerge.org/">meld</a> as diff t
     
       <p>Carpe diem.</p>
     
-     © 2021  
+     © 2023  
 
   </section>
 </footer>
@@ -162,7 +163,6 @@ if (!doNotTrack) {
 	ga('send', 'pageview');
 }
 </script>
-
 
   <script src="https://rilopez.com/js/app.js"></script>
   

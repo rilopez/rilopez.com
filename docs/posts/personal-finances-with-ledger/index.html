@@ -41,9 +41,10 @@
     <link rel="icon" type="image/png" href="https://rilopez.com/images/favicon-32x32.png" sizes="32x32">
     <link rel="icon" type="image/png" href="https://rilopez.com/images/favicon-16x16.png" sizes="16x16">
 
+
     
 
-    <meta name="generator" content="Hugo 0.80.0" />
+    <meta name="generator" content="Hugo 0.110.0">
   </head>
 
   <body class="">
@@ -114,15 +115,14 @@ to give plain text accounting a try. In general It felt awesome but complicated,
 how he handled financial book-keeping. He was using an Emacs/org-mode &ldquo;plugin&rdquo; for [ledger]</p>
 <h2 id="my-setup">My setup</h2>
 <p>After I run the normal brew dance to install it</p>
-<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">
-brew install ledger
-
-</code></pre></div><p>I added some handy stuff to my dot files</p>
-<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">alias l.go=&#34;cd ~/dev/repos/ledger&#34;
-alias l.edit=&#34;vim ~/dev/repos/ledger/main.ledger&#34;
-alias l.watch=&#34;l.go &amp;&amp; watch -n 1 ledger bal Assets Liabilities&#34;
-alias l.save=&#34;l.go &amp;&amp; scripts/commit_and_push.sh&#34;
-</code></pre></div><p>To edit the files I first tried as an opportunity to enhance my VIM skills so I used <code>vim-ledger</code>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">brew install ledger
+</span></span></code></pre></div><p>I added some handy stuff to my dot files</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">alias l.go=&#34;cd ~/dev/repos/ledger&#34;
+</span></span><span class="line"><span class="cl">alias l.edit=&#34;vim ~/dev/repos/ledger/main.ledger&#34;
+</span></span><span class="line"><span class="cl">alias l.watch=&#34;l.go &amp;&amp; watch -n 1 ledger bal Assets Liabilities&#34;
+</span></span><span class="line"><span class="cl">alias l.save=&#34;l.go &amp;&amp; scripts/commit_and_push.sh&#34;
+</span></span></code></pre></div><p>To edit the files I first tried as an opportunity to enhance my VIM skills so I used <code>vim-ledger</code>
 but it was too much, and I ended procrastinating the task so I switched to Microsoft code with the
 plugin <a href="https://marketplace.visualstudio.com/items?itemName=mariosangiorgio.ledger">ledger</a></p>
 
@@ -143,7 +143,7 @@ plugin <a href="https://marketplace.visualstudio.com/items?itemName=mariosangior
     
       <p>Carpe diem.</p>
     
-     © 2021  
+     © 2023  
 
   </section>
 </footer>
@@ -172,7 +172,6 @@ if (!doNotTrack) {
 	ga('send', 'pageview');
 }
 </script>
-
 
   <script src="https://rilopez.com/js/app.js"></script>
   

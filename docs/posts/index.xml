@@ -8,6 +8,15 @@
     <language>en</language>
     <lastBuildDate>Sat, 02 Feb 2019 18:47:45 +0000</lastBuildDate><atom:link href="https://rilopez.com/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Hello 2023</title>
+      <link>https://rilopez.com/posts/hello-2023/</link>
+      <pubDate>Fri, 24 Feb 2023 17:35:10 +0000</pubDate>
+      
+      <guid>https://rilopez.com/posts/hello-2023/</guid>
+      <description>I am back to my site, after 1 year being totally inmerse in my current employeer software</description>
+    </item>
+    
+    <item>
       <title>Git Bisect</title>
       <link>https://rilopez.com/posts/git-bisect/</link>
       <pubDate>Sun, 01 Aug 2021 21:43:14 -0500</pubDate>
@@ -15,7 +24,7 @@
       <guid>https://rilopez.com/posts/git-bisect/</guid>
       <description>Today I discovered a git bisect while reading the comments threads of this Hacker news post, The command uses a binary search algorithm to find which commit in your project history introduced a bug.
 Lets image that you discover a regression in your current branch state, and you want to know which commit introduce the culprit change
-git bisect start # initialize the algorithm git bisect bad # marks the current commit as buggy  git bisect selects a commit in the middle of your range history, check it out and outs something like</description>
+git bisect start # initialize the algorithm git bisect bad # marks the current commit as buggy git bisect selects a commit in the middle of your range history, check it out and outs something like</description>
     </item>
     
     <item>
@@ -57,7 +66,7 @@ I added this settings to my ~/.gitconfig
       
       <guid>https://rilopez.com/posts/bazel-docker-install-sqlite/</guid>
       <description>Some time ago the bazel docker rules did not allow the use of RUN because of two main reasons:
- Virtually everything folks do in RUN isn&amp;rsquo;t reproducible. The way the Docker daemon evaluates RUN is never reproducible.  Fortunately that changed, now they provide rules not only to RUN (and create commits/layers) but also specific rules to download &amp;amp; install system packages.
+Virtually everything folks do in RUN isn&amp;rsquo;t reproducible. The way the Docker daemon evaluates RUN is never reproducible. Fortunately that changed, now they provide rules not only to RUN (and create commits/layers) but also specific rules to download &amp;amp; install system packages.
 Here an example on how to install sqlite into a ubuntu base image</description>
     </item>
     
@@ -77,7 +86,7 @@ Here an example on how to install sqlite into a ubuntu base image</description>
       <pubDate>Sun, 27 Sep 2020 23:19:31 -0500</pubDate>
       
       <guid>https://rilopez.com/posts/joe-rogan-at-lex-podcast/</guid>
-      <description>My takeaways  Ideas breath in brains of humans.  You just need to show up Joe Recommends Book The War of Art: Winning the Inner Creative Battle  sit down and do the work, as a professional and wait for the muse (the idea) and let you know what to do.     Joe met Jamie at the ice house  he is unique , has little ego &amp;amp; is a great sound eng   What is the meaning of life?</description>
+      <description>My takeaways Ideas breath in brains of humans. You just need to show up Joe Recommends Book The War of Art: Winning the Inner Creative Battle sit down and do the work, as a professional and wait for the muse (the idea) and let you know what to do. Joe met Jamie at the ice house he is unique , has little ego &amp;amp; is a great sound eng What is the meaning of life?</description>
     </item>
     
     <item>
@@ -86,7 +95,7 @@ Here an example on how to install sqlite into a ubuntu base image</description>
       <pubDate>Fri, 28 Aug 2020 23:40:51 -0500</pubDate>
       
       <guid>https://rilopez.com/posts/neuralink-summer-2020/</guid>
-      <description>My takeaways  Neuralink had a great streaming showing their latest updates they showed live telemetry directly from an alive walking pig Pigs are similar to people, they move a lot and they are robust so if the device does not get malfunctions on pigs , it would work on people Currently the team is 100 people, it is expected to grow up to 10K people the device uses something like bluetooth Clinical trial is aimed at people with paraplegia In the future you can record your memories and play it back, How do we know that this moment is not our future self playing back his memories?</description>
+      <description>My takeaways Neuralink had a great streaming showing their latest updates they showed live telemetry directly from an alive walking pig Pigs are similar to people, they move a lot and they are robust so if the device does not get malfunctions on pigs , it would work on people Currently the team is 100 people, it is expected to grow up to 10K people the device uses something like bluetooth Clinical trial is aimed at people with paraplegia In the future you can record your memories and play it back, How do we know that this moment is not our future self playing back his memories?</description>
     </item>
     
     <item>
@@ -95,7 +104,7 @@ Here an example on how to install sqlite into a ubuntu base image</description>
       <pubDate>Sun, 29 Dec 2019 17:39:46 -0500</pubDate>
       
       <guid>https://rilopez.com/posts/parallel-and-asynchronous-programming-venkat/</guid>
-      <description>    parallel when you have an array of data concurrent when you have a problem that can be divided an conquer. Collection Pipeline pattern by Martin Flower forEachOrdered  </description>
+      <description> parallel when you have an array of data concurrent when you have a problem that can be divided an conquer. Collection Pipeline pattern by Martin Flower forEachOrdered </description>
     </item>
     
     <item>
@@ -104,9 +113,9 @@ Here an example on how to install sqlite into a ubuntu base image</description>
       <pubDate>Sat, 19 Oct 2019 11:24:29 -0500</pubDate>
       
       <guid>https://rilopez.com/posts/microservices-by-martin-flowler/</guid>
-      <description>My takeaways:   There is no real definition, Its something that from the begining is ill defined
-  Martin can identify 9 characteristics
- Componentization via services Thinking about parts not as builders, but as users changing parts of stereo components Organized Around Business capabilities Smart endpoints and dump pipes. There is no room for complex middleware (ESB) Decentralized governance Decentraliced Data Managment Infraestructure automation Design for failure    Are microservices just SOA?</description>
+      <description>My takeaways: There is no real definition, Its something that from the begining is ill defined
+Martin can identify 9 characteristics
+Componentization via services Thinking about parts not as builders, but as users changing parts of stereo components Organized Around Business capabilities Smart endpoints and dump pipes. There is no room for complex middleware (ESB) Decentralized governance Decentraliced Data Managment Infraestructure automation Design for failure Are microservices just SOA? microservices is just a subset of SOA, but how bit should be to be called microservices</description>
     </item>
     
     <item>
@@ -115,10 +124,9 @@ Here an example on how to install sqlite into a ubuntu base image</description>
       <pubDate>Sun, 23 Jun 2019 07:12:57 -0500</pubDate>
       
       <guid>https://rilopez.com/posts/three-terrible-ideas-weakening-gen-z-by-jonathan-haidt/</guid>
-      <description>My Takeaways   Two disorders have been growing between generation Z
- Emotional disorders: depression and anxiety Political polarization    The sudden emergence of a new moral culture of safetyism (safespaces,trigger warinings, )
-  What does not kill you makes you weaker
-    </description>
+      <description>My Takeaways Two disorders have been growing between generation Z
+Emotional disorders: depression and anxiety Political polarization The sudden emergence of a new moral culture of safetyism (safespaces,trigger warinings, )
+What does not kill you makes you weaker</description>
     </item>
     
     <item>
@@ -128,7 +136,7 @@ Here an example on how to install sqlite into a ubuntu base image</description>
       
       <guid>https://rilopez.com/posts/academy-lessons-learned/</guid>
       <description>Nearsoft Academy: Lessons learned after almost a decade preparing interns With a tight talent market, developing talent in-house gets a special appeal. Not only because of the reduction of costs but for the opportunity to rise the bar for future generations. Some assumptions anybody makes when trying to implement an internship program are,
- We can ask our seniors to mentor interns We are better at teaching than their university professors With the right training program any college graduate can produce good work at our organization  After almost a decade of working with interns, at Nearsoft academy We learned a lot of hard lessons that help us to get rid of those assumptions</description>
+We can ask our seniors to mentor interns We are better at teaching than their university professors With the right training program any college graduate can produce good work at our organization After almost a decade of working with interns, at Nearsoft academy We learned a lot of hard lessons that help us to get rid of those assumptions</description>
     </item>
     
     <item>
@@ -156,11 +164,12 @@ Designing an internship program Because I think that a software engineer is most
       <pubDate>Wed, 13 Feb 2019 21:46:21 -0500</pubDate>
       
       <guid>https://rilopez.com/posts/agile-is-dead-by-dave-thomas/</guid>
-      <description>My Takeaways   UML destroyed the OOP by focusing a generation of programmers into Classes instead of objects.
-  Agile is not a noun, it is an adjective
-  Fear sells: new words, new roles, new ways to measure, are we doing it right?
-  Cool sells: bright &amp;amp; Shiny, feeling the power, What!!, you aren&amp;rsquo;t doing Agile!!
-  Agile is an industry, that taxes us in terms of fear</description>
+      <description>My Takeaways UML destroyed the OOP by focusing a generation of programmers into Classes instead of objects.
+Agile is not a noun, it is an adjective
+Fear sells: new words, new roles, new ways to measure, are we doing it right?
+Cool sells: bright &amp;amp; Shiny, feeling the power, What!!, you aren&amp;rsquo;t doing Agile!!
+Agile is an industry, that taxes us in terms of fear
+Reclaiming Agility , 3 steps and a loop:</description>
     </item>
     
     <item>
@@ -169,7 +178,7 @@ Designing an internship program Because I think that a software engineer is most
       <pubDate>Sun, 10 Feb 2019 11:10:16 -0500</pubDate>
       
       <guid>https://rilopez.com/posts/impact-of-mindfulness-on-your-brain-and-business-by-dr-amishi-hjha/</guid>
-      <description>   My Takeaways  Presenter is Mario galarreta works in the people development team [23:50] Mindfulness is a mental mode characterized by attention to present moment experience without conceptual elaboration or emotional reactivity. [24:00] Be in the here and now without an story about it  </description>
+      <description> My Takeaways Presenter is Mario galarreta works in the people development team [23:50] Mindfulness is a mental mode characterized by attention to present moment experience without conceptual elaboration or emotional reactivity. [24:00] Be in the here and now without an story about it </description>
     </item>
     
     <item>
@@ -190,7 +199,7 @@ First, what is deliberate practice? Is a special type of practice that is purpos
       <guid>https://rilopez.com/posts/impediment-to-action-advances-action/</guid>
       <description>While it is true that someone can impede our actions, they can not impede our intentions and our attitudes, which have the power of being conditional and adaptable. For the Mind converts any obstacle to its action into means of achieving it. That which is an impediment to action advances action , What stands in the way becomes the way
 Marcus Aurelius, Meditations 5.20
- How many times we forget this?</description>
+How many times we forget this?</description>
     </item>
     
     <item>
@@ -209,7 +218,7 @@ Marcus Aurelius, Meditations 5.20
       
       <guid>https://rilopez.com/posts/toma-al-toro-por-los-cuernos/</guid>
       <description>You have endured countless troubles &amp;ndash; all for not letting your ruling reason do the work it was made for&amp;ndash; Enough already &amp;mdash; Marcus Aurelius, Meditations, 9.26
- In Spanish there is this saying &amp;ldquo;toma al toro por los cuernos&amp;rdquo; to indicate to take charge of the problem/issue/task in front. In this quote Marcus indicate that we should do it always using our ruling reason.</description>
+In Spanish there is this saying &amp;ldquo;toma al toro por los cuernos&amp;rdquo; to indicate to take charge of the problem/issue/task in front. In this quote Marcus indicate that we should do it always using our ruling reason.</description>
     </item>
     
     <item>
@@ -236,7 +245,7 @@ Marcus Aurelius, Meditations 5.20
       <pubDate>Sun, 11 Aug 2013 16:36:29 -0500</pubDate>
       
       <guid>https://rilopez.com/posts/what-you-are-really-meant-to-do-by-robert-steven-kaplan/</guid>
-      <description>My takeaways  Speaker Robert Steven Kaplan &amp;ldquo;reaching your potential is a never ending activity&amp;rdquo; &amp;ldquo;it is like being fit or healthy&amp;rdquo; You are not able to known your weakness. you need help from other people because we all have blind spots. ask for feedback on your weakness Why people fail (most commonly)?  Isolation Inability to learn   Knowing your self  What is your life story? can you write down your success &amp;amp; failures narratives?</description>
+      <description>My takeaways Speaker Robert Steven Kaplan &amp;ldquo;reaching your potential is a never ending activity&amp;rdquo; &amp;ldquo;it is like being fit or healthy&amp;rdquo; You are not able to known your weakness. you need help from other people because we all have blind spots. ask for feedback on your weakness Why people fail (most commonly)? Isolation Inability to learn Knowing your self What is your life story? can you write down your success &amp;amp; failures narratives?</description>
     </item>
     
     <item>
@@ -245,12 +254,12 @@ Marcus Aurelius, Meditations 5.20
       <pubDate>Sun, 20 Dec 2009 12:59:21 -0500</pubDate>
       
       <guid>https://rilopez.com/posts/confessions-of-a-public-speaker-by-scott-berkun/</guid>
-      <description>My takeaways   Confessions of a public speaker book
-  6 reason of sucking at public speaking and how to fix it
-  Your are afraid of the crowd.Physical exercise that day
-  This is your first time. You&amp;rsquo;ve practiced till it&amp;rsquo;s good
-  You are a turtle on drugs. There is a rhythm I can follow
- Rhythm is important ( not so fast, not so slow ) most people attention span is between 5 to 10 min, your talk should be sorted in segments of 5-10 mins.</description>
+      <description>My takeaways Confessions of a public speaker book
+6 reason of sucking at public speaking and how to fix it
+Your are afraid of the crowd.Physical exercise that day
+This is your first time. You&amp;rsquo;ve practiced till it&amp;rsquo;s good
+You are a turtle on drugs. There is a rhythm I can follow
+Rhythm is important ( not so fast, not so slow ) most people attention span is between 5 to 10 min, your talk should be sorted in segments of 5-10 mins.</description>
     </item>
     
     <item>
@@ -259,7 +268,7 @@ Marcus Aurelius, Meditations 5.20
       <pubDate>Mon, 02 Nov 2009 15:50:54 -0500</pubDate>
       
       <guid>https://rilopez.com/posts/the-energy-project-by-tony-schwartz/</guid>
-      <description>My Takeaways  Time is finite  Energy is expandable Energy is the capacity to do work.   4 sources of energy on a human:  physical (cuantum): nutrition, fitness, sleep, recovery. Emotional (Quality): how do you feel. Mental (Focus): one thing on a time, we are not multitasking. The Human Spirit (Purpose): aligment what you say its important and how you do   Renewal of energy its important, quality its the most important  Ultradian rhythms the 90-120 minute wave Paradigm Shift: Life as sprinter not a marathoner   To manage energy Optimally , we most build positive rituals    </description>
+      <description>My Takeaways Time is finite Energy is expandable Energy is the capacity to do work. 4 sources of energy on a human: physical (cuantum): nutrition, fitness, sleep, recovery. Emotional (Quality): how do you feel. Mental (Focus): one thing on a time, we are not multitasking. The Human Spirit (Purpose): aligment what you say its important and how you do Renewal of energy its important, quality its the most important Ultradian rhythms the 90-120 minute wave Paradigm Shift: Life as sprinter not a marathoner To manage energy Optimally , we most build positive rituals </description>
     </item>
     
     <item>
@@ -268,7 +277,7 @@ Marcus Aurelius, Meditations 5.20
       <pubDate>Sun, 20 Sep 2009 16:32:55 -0500</pubDate>
       
       <guid>https://rilopez.com/posts/no-arms-no-legs-no-worries/</guid>
-      <description>My takeaways  Be grateful with what you are Do not think on what you do not have, think on what you have. Disabled is just in the mind Ask for a second opinion when somebody give you a bad opinion The day you think you reached your full potential, is the day when you haven&amp;rsquo;t done it. Live a life without limits    </description>
+      <description>My takeaways Be grateful with what you are Do not think on what you do not have, think on what you have. Disabled is just in the mind Ask for a second opinion when somebody give you a bad opinion The day you think you reached your full potential, is the day when you haven&amp;rsquo;t done it. Live a life without limits </description>
     </item>
     
     <item>
@@ -278,7 +287,7 @@ Marcus Aurelius, Meditations 5.20
       
       <guid>https://rilopez.com/posts/marshall-goldsmith-leading-at-google/</guid>
       <description>I just discovered Marshall Goldsmith and he is awesome, looking forward to read his book What got you here, won&amp;rsquo;t get you there. Here are my takeaways:
- We spend a lot of time helping leaders learn what to do, we don&amp;rsquo;t spend enough time helping leaders learn what to stop -Peter Drucker WINNING TO MUCH, we are so competitive that we argue who is more miserable &amp;ldquo;help more, judge less&amp;rdquo; Use little amounts of money to produce change in behavior We only can change what we want to change.</description>
+We spend a lot of time helping leaders learn what to do, we don&amp;rsquo;t spend enough time helping leaders learn what to stop -Peter Drucker WINNING TO MUCH, we are so competitive that we argue who is more miserable &amp;ldquo;help more, judge less&amp;rdquo; Use little amounts of money to produce change in behavior We only can change what we want to change.</description>
     </item>
     
   </channel>

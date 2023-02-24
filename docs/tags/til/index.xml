@@ -15,7 +15,7 @@
       <guid>https://rilopez.com/posts/git-bisect/</guid>
       <description>Today I discovered a git bisect while reading the comments threads of this Hacker news post, The command uses a binary search algorithm to find which commit in your project history introduced a bug.
 Lets image that you discover a regression in your current branch state, and you want to know which commit introduce the culprit change
-git bisect start # initialize the algorithm git bisect bad # marks the current commit as buggy  git bisect selects a commit in the middle of your range history, check it out and outs something like</description>
+git bisect start # initialize the algorithm git bisect bad # marks the current commit as buggy git bisect selects a commit in the middle of your range history, check it out and outs something like</description>
     </item>
     
     <item>
@@ -57,7 +57,7 @@ I added this settings to my ~/.gitconfig
       
       <guid>https://rilopez.com/posts/bazel-docker-install-sqlite/</guid>
       <description>Some time ago the bazel docker rules did not allow the use of RUN because of two main reasons:
- Virtually everything folks do in RUN isn&amp;rsquo;t reproducible. The way the Docker daemon evaluates RUN is never reproducible.  Fortunately that changed, now they provide rules not only to RUN (and create commits/layers) but also specific rules to download &amp;amp; install system packages.
+Virtually everything folks do in RUN isn&amp;rsquo;t reproducible. The way the Docker daemon evaluates RUN is never reproducible. Fortunately that changed, now they provide rules not only to RUN (and create commits/layers) but also specific rules to download &amp;amp; install system packages.
 Here an example on how to install sqlite into a ubuntu base image</description>
     </item>
     

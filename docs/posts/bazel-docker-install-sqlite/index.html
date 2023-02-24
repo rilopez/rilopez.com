@@ -41,9 +41,10 @@
     <link rel="icon" type="image/png" href="https://rilopez.com/images/favicon-32x32.png" sizes="32x32">
     <link rel="icon" type="image/png" href="https://rilopez.com/images/favicon-16x16.png" sizes="16x16">
 
+
     
 
-    <meta name="generator" content="Hugo 0.80.0" />
+    <meta name="generator" content="Hugo 0.110.0">
   </head>
 
   <body class="">
@@ -111,23 +112,23 @@
 <p>Fortunately that changed, now they provide rules not only to <code>RUN</code> (and create commits/layers) but
 also specific rules to download &amp; install system packages.</p>
 <p>Here an example on how to install sqlite into a ubuntu base image</p>
-<div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="n">download_pkgs</span><span class="p">(</span>
-    <span class="n">name</span> <span class="o">=</span> <span class="s2">&#34;sqlite_pkgs&#34;</span><span class="p">,</span>
-    <span class="n">image_tar</span> <span class="o">=</span> <span class="s2">&#34;@ubuntu1604//image&#34;</span><span class="p">,</span>
-    <span class="n">packages</span> <span class="o">=</span> <span class="p">[</span>
-        <span class="s2">&#34;libsqlite3-dev&#34;</span><span class="p">,</span>
-        <span class="s2">&#34;sqlite3&#34;</span><span class="p">,</span>
-    <span class="p">],</span>
-<span class="p">)</span>
-
-<span class="n">install_pkgs</span><span class="p">(</span>
-    <span class="n">name</span> <span class="o">=</span> <span class="s2">&#34;sqlite_pkgs_image&#34;</span><span class="p">,</span>
-    <span class="n">image_tar</span> <span class="o">=</span> <span class="s2">&#34;@ubuntu1604//image&#34;</span><span class="p">,</span>
-    <span class="n">installables_tar</span> <span class="o">=</span> <span class="s2">&#34;:sqlite_pkgs.tar&#34;</span><span class="p">,</span>
-    <span class="n">installation_cleanup_commands</span> <span class="o">=</span> <span class="s2">&#34;rm -rf /var/lib/apt/lists/*&#34;</span><span class="p">,</span>
-    <span class="n">output_image_name</span> <span class="o">=</span> <span class="s2">&#34;sqlite_pkgs_image&#34;</span><span class="p">,</span>
-<span class="p">)</span>
-</code></pre></div><p>more examples:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="n">download_pkgs</span><span class="p">(</span>
+</span></span><span class="line"><span class="cl">    <span class="n">name</span> <span class="o">=</span> <span class="s2">&#34;sqlite_pkgs&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="n">image_tar</span> <span class="o">=</span> <span class="s2">&#34;@ubuntu1604//image&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="n">packages</span> <span class="o">=</span> <span class="p">[</span>
+</span></span><span class="line"><span class="cl">        <span class="s2">&#34;libsqlite3-dev&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">        <span class="s2">&#34;sqlite3&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="p">],</span>
+</span></span><span class="line"><span class="cl"><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">install_pkgs</span><span class="p">(</span>
+</span></span><span class="line"><span class="cl">    <span class="n">name</span> <span class="o">=</span> <span class="s2">&#34;sqlite_pkgs_image&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="n">image_tar</span> <span class="o">=</span> <span class="s2">&#34;@ubuntu1604//image&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="n">installables_tar</span> <span class="o">=</span> <span class="s2">&#34;:sqlite_pkgs.tar&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="n">installation_cleanup_commands</span> <span class="o">=</span> <span class="s2">&#34;rm -rf /var/lib/apt/lists/*&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="n">output_image_name</span> <span class="o">=</span> <span class="s2">&#34;sqlite_pkgs_image&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl"><span class="p">)</span>
+</span></span></code></pre></div><p>more examples:</p>
 <ul>
 <li><a href="https://github.com/bazelbuild/rules_docker/blob/master/testing/examples/run_instruction_apt_pkgs/BUILD">apt packages</a></li>
 <li><a href="https://github.com/bazelbuild/rules_docker/blob/master/testing/examples/run_instruction_arbitrary/BUILD">run arbitrary instructions</a></li>
@@ -150,7 +151,7 @@ also specific rules to download &amp; install system packages.</p>
     
       <p>Carpe diem.</p>
     
-     © 2021  
+     © 2023  
 
   </section>
 </footer>
@@ -179,7 +180,6 @@ if (!doNotTrack) {
 	ga('send', 'pageview');
 }
 </script>
-
 
   <script src="https://rilopez.com/js/app.js"></script>
   

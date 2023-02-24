@@ -41,9 +41,10 @@
     <link rel="icon" type="image/png" href="https://rilopez.com/images/favicon-32x32.png" sizes="32x32">
     <link rel="icon" type="image/png" href="https://rilopez.com/images/favicon-16x16.png" sizes="16x16">
 
+
     
 
-    <meta name="generator" content="Hugo 0.80.0" />
+    <meta name="generator" content="Hugo 0.110.0">
   </head>
 
   <body class="">
@@ -105,12 +106,12 @@
 <a href="https://news.ycombinator.com/item?id=28024972">Hacker news post</a>,  The command uses a binary search algorithm to find which commit in your project history introduced
 a bug.</p>
 <p>Lets image that you discover a regression in your current branch state, and you want to know which commit introduce the culprit change</p>
-<div class="highlight"><pre class="chroma"><code class="language-sh" data-lang="sh">git bisect start  <span class="c1"># initialize the algorithm</span>
-
-git bisect bad    <span class="c1"># marks the current commit as buggy </span>
-</code></pre></div><p><code>git bisect</code> selects a commit in the middle of your range history, check it out and outs something like</p>
-<div class="highlight"><pre class="chroma"><code class="language-sh" data-lang="sh">Bisecting: <span class="m">675</span> revisions left to <span class="nb">test</span> after this <span class="o">(</span>roughly <span class="m">10</span> steps<span class="o">)</span>
-</code></pre></div><p>then you compile &amp; test your checked version and if the bug is not there mark the commit as good <code>git bisect good</code> otherwhise <code>git bisect bad</code></p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl">git bisect start  <span class="c1"># initialize the algorithm</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">git bisect bad    <span class="c1"># marks the current commit as buggy </span>
+</span></span></code></pre></div><p><code>git bisect</code> selects a commit in the middle of your range history, check it out and outs something like</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl">Bisecting: <span class="m">675</span> revisions left to <span class="nb">test</span> after this <span class="o">(</span>roughly <span class="m">10</span> steps<span class="o">)</span>
+</span></span></code></pre></div><p>then you compile &amp; test your checked version and if the bug is not there mark the commit as good <code>git bisect good</code> otherwhise <code>git bisect bad</code></p>
 <p>Eventually there will be no more revisions left to inspect and the command will print out a description of the first bad commit  and the reference <code>refs/bisect/bad</code> will point a at that commit</p>
 
   </article>
@@ -130,7 +131,7 @@ git bisect bad    <span class="c1"># marks the current commit as buggy </span>
     
       <p>Carpe diem.</p>
     
-     © 2021  
+     © 2023  
 
   </section>
 </footer>
@@ -159,7 +160,6 @@ if (!doNotTrack) {
 	ga('send', 'pageview');
 }
 </script>
-
 
   <script src="https://rilopez.com/js/app.js"></script>
   

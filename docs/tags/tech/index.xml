@@ -13,7 +13,7 @@
       <pubDate>Fri, 28 Aug 2020 23:40:51 -0500</pubDate>
       
       <guid>https://rilopez.com/posts/neuralink-summer-2020/</guid>
-      <description>My takeaways  Neuralink had a great streaming showing their latest updates they showed live telemetry directly from an alive walking pig Pigs are similar to people, they move a lot and they are robust so if the device does not get malfunctions on pigs , it would work on people Currently the team is 100 people, it is expected to grow up to 10K people the device uses something like bluetooth Clinical trial is aimed at people with paraplegia In the future you can record your memories and play it back, How do we know that this moment is not our future self playing back his memories?</description>
+      <description>My takeaways Neuralink had a great streaming showing their latest updates they showed live telemetry directly from an alive walking pig Pigs are similar to people, they move a lot and they are robust so if the device does not get malfunctions on pigs , it would work on people Currently the team is 100 people, it is expected to grow up to 10K people the device uses something like bluetooth Clinical trial is aimed at people with paraplegia In the future you can record your memories and play it back, How do we know that this moment is not our future self playing back his memories?</description>
     </item>
     
     <item>
@@ -22,9 +22,9 @@
       <pubDate>Sat, 19 Oct 2019 11:24:29 -0500</pubDate>
       
       <guid>https://rilopez.com/posts/microservices-by-martin-flowler/</guid>
-      <description>My takeaways:   There is no real definition, Its something that from the begining is ill defined
-  Martin can identify 9 characteristics
- Componentization via services Thinking about parts not as builders, but as users changing parts of stereo components Organized Around Business capabilities Smart endpoints and dump pipes. There is no room for complex middleware (ESB) Decentralized governance Decentraliced Data Managment Infraestructure automation Design for failure    Are microservices just SOA?</description>
+      <description>My takeaways: There is no real definition, Its something that from the begining is ill defined
+Martin can identify 9 characteristics
+Componentization via services Thinking about parts not as builders, but as users changing parts of stereo components Organized Around Business capabilities Smart endpoints and dump pipes. There is no room for complex middleware (ESB) Decentralized governance Decentraliced Data Managment Infraestructure automation Design for failure Are microservices just SOA? microservices is just a subset of SOA, but how bit should be to be called microservices</description>
     </item>
     
     <item>
@@ -33,11 +33,12 @@
       <pubDate>Wed, 13 Feb 2019 21:46:21 -0500</pubDate>
       
       <guid>https://rilopez.com/posts/agile-is-dead-by-dave-thomas/</guid>
-      <description>My Takeaways   UML destroyed the OOP by focusing a generation of programmers into Classes instead of objects.
-  Agile is not a noun, it is an adjective
-  Fear sells: new words, new roles, new ways to measure, are we doing it right?
-  Cool sells: bright &amp;amp; Shiny, feeling the power, What!!, you aren&amp;rsquo;t doing Agile!!
-  Agile is an industry, that taxes us in terms of fear</description>
+      <description>My Takeaways UML destroyed the OOP by focusing a generation of programmers into Classes instead of objects.
+Agile is not a noun, it is an adjective
+Fear sells: new words, new roles, new ways to measure, are we doing it right?
+Cool sells: bright &amp;amp; Shiny, feeling the power, What!!, you aren&amp;rsquo;t doing Agile!!
+Agile is an industry, that taxes us in terms of fear
+Reclaiming Agility , 3 steps and a loop:</description>
     </item>
     
   </channel>
