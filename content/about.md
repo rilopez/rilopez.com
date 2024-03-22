@@ -16,8 +16,10 @@ I also want to learn a lot,   lately, besides technical stuff , I have been stud
 
 ## Timeline for context
 
+* 2023: work as Go & Typescript Software Engineer contractor for [CloudSoda](https://cloudsoda.io/)
+* 2022: working as Director or Engineering for [Dipole Digital](https://dipole.digital/)
 * 2021: start working as contractor  for [Integrated Media Technologies](https://www.imtglobalinc.com/) as  Go & Typescript software engineer
-* 2020: start working for [TripAdvisor](https://tripadvisor.com) as software engineer contractor 
+* 2020: work for [TripAdvisor](https://tripadvisor.com) as software engineer contractor 
 * 2018: born of my second daughter      
 * 2010: Moved family cross country and joined [Nearsoft](https://nearsoft.com)
 * 2006: Married & born of my first daughter     
