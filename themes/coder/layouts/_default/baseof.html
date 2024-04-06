@@ -42,8 +42,8 @@
     <link rel="icon" type="image/png" href="{{ "/images/favicon-16x16.png" | absURL }}" sizes="16x16">
 
 
-    {{ with .OutputFormats.Get "RSS" }} 
-       {{ .RelPermalink }}
+    {{ with .OutputFormats.Get "RSS" }}     
+        <link rel="alternate" type="application/rss+xml" href="{{ .RelPermalink }}" />
     {{ end }}
 
     {{ hugo.Generator }}
