@@ -18,5 +18,5 @@ Key sci-fi concepts that stood out to me include:
 - **Interstellar Probes**: The notion that Rama is an interstellar probe sent by an alien civilization introduces a fascinating perspective on how advanced societies might explore the galaxy. It raises questions about the Fermi Paradox and the methods extraterrestrial intelligences could use to survey the cosmos.
 
 
-
+![rendezvous with rama book cover](images/rendezvous-with-rama.png)
 
