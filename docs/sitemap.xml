@@ -2,16 +2,28 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://rilopez.com/authors/arthur-c.-clark/</loc>
+    <lastmod>2024-03-14T12:10:50-06:00</lastmod>
+  </url><url>
+    <loc>https://rilopez.com/authors/</loc>
+    <lastmod>2024-03-14T12:10:50-06:00</lastmod>
+  </url><url>
+    <loc>https://rilopez.com/</loc>
+    <lastmod>2024-03-14T12:10:50-06:00</lastmod>
+  </url><url>
+    <loc>https://rilopez.com/books/rendezvous-with-rama/</loc>
+    <lastmod>2024-03-14T12:10:50-06:00</lastmod>
+  </url><url>
+    <loc>https://rilopez.com/tags/sci-fi/</loc>
+    <lastmod>2024-03-14T12:10:50-06:00</lastmod>
+  </url><url>
+    <loc>https://rilopez.com/tags/</loc>
+    <lastmod>2024-03-14T12:10:50-06:00</lastmod>
+  </url><url>
     <loc>https://rilopez.com/posts/hello-2023/</loc>
     <lastmod>2023-02-24T17:35:10+00:00</lastmod>
   </url><url>
-    <loc>https://rilopez.com/</loc>
-    <lastmod>2023-02-24T17:35:10+00:00</lastmod>
-  </url><url>
     <loc>https://rilopez.com/posts/git-bisect/</loc>
-    <lastmod>2021-08-01T21:43:14-05:00</lastmod>
-  </url><url>
-    <loc>https://rilopez.com/tags/</loc>
     <lastmod>2021-08-01T21:43:14-05:00</lastmod>
   </url><url>
     <loc>https://rilopez.com/tags/til/</loc>
@@ -40,9 +52,6 @@
   </url><url>
     <loc>https://rilopez.com/tags/web-development/</loc>
     <lastmod>2021-05-04T22:47:55-05:00</lastmod>
-  </url><url>
-    <loc>https://rilopez.com/authors/</loc>
-    <lastmod>2021-04-25T23:01:26+00:00</lastmod>
   </url><url>
     <loc>https://rilopez.com/tags/biographies/</loc>
     <lastmod>2021-04-25T23:01:26+00:00</lastmod>
@@ -85,9 +94,6 @@
   </url><url>
     <loc>https://rilopez.com/books/total-recall/</loc>
     <lastmod>2020-07-14T04:19:39+00:00</lastmod>
-  </url><url>
-    <loc>https://rilopez.com/tags/sci-fi/</loc>
-    <lastmod>2020-06-21T14:55:07+00:00</lastmod>
   </url><url>
     <loc>https://rilopez.com/books/stories-of-your-life-and-others/</loc>
     <lastmod>2020-06-21T14:55:07+00:00</lastmod>
