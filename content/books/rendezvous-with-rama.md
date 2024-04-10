@@ -3,6 +3,7 @@ date: 2024-03-14T12:10:50-06:00
 title: "Rendezvous with Rama"
 tags: ["sci-fi"]
 authors: ["Arthur C. Clark"]
+rating: 7/10
 ---
 
 Arthur C. Clarke's novel, published in 1973, unfolds in the year 2131, when humanity detects an object, initially thought to be a cylindrical asteroid, in the outer solar system, beyond the orbit of Jupiter. Named Rama, this object piques human curiosity, leading to the dispatch of the spaceship Endeavour to investigate.

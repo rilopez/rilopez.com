@@ -2,22 +2,31 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://rilopez.com/authors/arthur-c.-clark/</loc>
-    <lastmod>2024-03-14T12:10:50-06:00</lastmod>
-  </url><url>
     <loc>https://rilopez.com/authors/</loc>
-    <lastmod>2024-03-14T12:10:50-06:00</lastmod>
+    <lastmod>2024-03-22T12:15:09+00:00</lastmod>
   </url><url>
     <loc>https://rilopez.com/</loc>
+    <lastmod>2024-03-22T12:15:09+00:00</lastmod>
+  </url><url>
+    <loc>https://rilopez.com/books/lo-que-se-ira/</loc>
+    <lastmod>2024-03-22T12:15:09+00:00</lastmod>
+  </url><url>
+    <loc>https://rilopez.com/authors/manuel-iris/</loc>
+    <lastmod>2024-03-22T12:15:09+00:00</lastmod>
+  </url><url>
+    <loc>https://rilopez.com/tags/poesy/</loc>
+    <lastmod>2024-03-22T12:15:09+00:00</lastmod>
+  </url><url>
+    <loc>https://rilopez.com/tags/</loc>
+    <lastmod>2024-03-22T12:15:09+00:00</lastmod>
+  </url><url>
+    <loc>https://rilopez.com/authors/arthur-c.-clark/</loc>
     <lastmod>2024-03-14T12:10:50-06:00</lastmod>
   </url><url>
     <loc>https://rilopez.com/books/rendezvous-with-rama/</loc>
     <lastmod>2024-03-14T12:10:50-06:00</lastmod>
   </url><url>
     <loc>https://rilopez.com/tags/sci-fi/</loc>
-    <lastmod>2024-03-14T12:10:50-06:00</lastmod>
-  </url><url>
-    <loc>https://rilopez.com/tags/</loc>
     <lastmod>2024-03-14T12:10:50-06:00</lastmod>
   </url><url>
     <loc>https://rilopez.com/posts/hello-2023/</loc>
