@@ -1,7 +1,7 @@
 
 --- 
 date: 2024-04-11T10:45:22-06:00
-title: "When the Student Is Ready, the Mentors Appea"
+title: "When the Student Is Ready, the Mentors Appear"
 tags: ["mentoring"]
 ---
 
