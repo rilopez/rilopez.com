@@ -9,7 +9,7 @@ rating: 10/10
 {{< figure src="/images/books/lo-que-se-ira.png" alt="Portada del libro 'Lo que se irá'" width="33%" >}}
 
 
-Escuché una entrevista que le hicieron a [Manuel Iris](https://manueliris.com/) en un programa de radio; sus respuestas fueron cautivantes:
+El año pasado escuché una entrevista que le hicieron a [Manuel Iris](https://manueliris.com/) en un programa de radio; sus respuestas fueron cautivantes:
 
 > ¿Labor de un poeta? "Si la realidad es buena, lo mínimo que puede hacer es sacar la belleza. 
 > Si la realidad es horrible, lo mínimo que puede hacer es..."
