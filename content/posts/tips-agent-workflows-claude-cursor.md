@@ -1,8 +1,7 @@
 ---
 title: "Keep a CURRENT_TASK.md File for Better Agent Workflows"
-date: 2025-01-06T10:00:00-07:00
-draft: false
-tags: ["AI", "programming", "productivity", "claude", "cursor", "til"]
+date: 2025-05-31T10:00:00-07:00
+tags: ["AI", "programming", "productivity", "til"]
 ---
 
 How many times have you started working with Claude or Cursor, had a great conversation going, then completely lost track of what you were doing when you had to step away?
@@ -112,7 +111,7 @@ This creates a searchable knowledge base of everything I've learned. When I face
 
 **Goal**: Real-time notifications for dashboard users
 **Duration**: 3 days
-**Challenges**: 
+**Challenges**:
 - WebSocket connection drops during deployment
 - Notification spam overwhelming users
 **Solutions**:
