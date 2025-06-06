@@ -3,7 +3,8 @@ languageCode = "en-us"
 title = "Isaac Lopez"
 theme = "coder"
 
-paginate = 20
+[pagination]
+pagerSize = 20
 
 pygmentsstyle = "b2"
 pygmentscodefences = true

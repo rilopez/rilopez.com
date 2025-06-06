@@ -1,0 +1,11 @@
+[tools]
+# Hugo static site generator
+# Using extended version for SCSS/SASS support
+hugo = "0.147.7"
+
+# Node.js for any build tools or scripts
+node = "20"
+
+[env]
+# Hugo environment variables
+HUGO_ENV = "production"
