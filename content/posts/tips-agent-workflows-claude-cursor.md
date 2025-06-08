@@ -1,4 +1,5 @@
 ---
+draft: false
 title: "Keep a CURRENT_TASK.md File for Better Agent Workflows"
 date: 2025-06-08T10:00:00-07:00
 tags: ["AI", "programming", "productivity", "til"]
