@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+#MISE description="Create a new book review"
+
+if [ -z "$1" ]; then
+  echo "Error: Please provide a book name"
+  echo "Usage: mise run new-book <book-name>"
+  exit 1
+fi
+
+hugo new "books/$1.md"

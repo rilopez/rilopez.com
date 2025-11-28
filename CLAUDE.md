@@ -8,31 +8,60 @@ This is Isaac Lopez's personal website (rilopez.com) built with Hugo static site
 
 ## Essential Commands
 
+### Tool Setup
+This project uses [mise](https://mise.jdx.dev/) for version management and task running.
+
+```bash
+# Install required tools (Hugo 0.147.7, Node.js 20)
+mise install
+
+# List available tasks
+mise tasks
+
+# Tools are auto-activated if you have mise configured in your shell
+# Otherwise, prefix commands with: mise exec --
+```
+
+Configuration is in [.mise.toml](.mise.toml). Custom tasks are defined in [.mise/tasks/](.mise/tasks/).
+
 ### Development
 ```bash
 # Start local development server with drafts
-hugo server -D
+mise run dev
+# Or: hugo server -D
 
 # Build the site (outputs to docs/ directory)
-hugo
+mise run build
+# Or: hugo
 ```
 
 ### Content Creation
 ```bash
 # Create a new blog post
-hugo new posts/post-title.md
+mise run new-post post-title
+# Or: hugo new posts/post-title.md
 
 # Create a new book review
-hugo new books/book-name.md
+mise run new-book book-name
+# Or: hugo new books/book-name.md
 ```
 
 ### Deployment
 ```bash
 # Deploy to GitHub Pages (builds, commits, and pushes)
-./scripts/commit_push_deploy.sh
+mise run deploy
+# Or: ./scripts/commit_push_deploy.sh
 
 # Deploy with custom commit message
-./scripts/commit_push_deploy.sh "your commit message"
+mise run deploy-msg "your commit message"
+# Or: ./scripts/commit_push_deploy.sh "your commit message"
+```
+
+### Maintenance
+```bash
+# Find posts with warning-prefixed tags (#⚠️)
+mise run find-warnings
+# Or: ./scripts/find-warning-tags.sh
 ```
 
 ## Architecture & Key Details
@@ -45,18 +74,24 @@ hugo new books/book-name.md
 
 ### Content Types
 1. **Posts** (`content/posts/`): Blog articles with standard frontmatter
+   - Date, title, tags, draft status
+   - Support for Hugo shortcodes (e.g., `{{< ref >}}` for internal links)
 2. **Books** (`content/books/`): Book reviews with custom layout including:
-   - Author taxonomy
-   - Rating system (via partials/rating.html)
-   - ISBN field
-   - Custom single.html template
+   - Author field (string, not taxonomy array)
+   - Rating system (via `layouts/partials/rating.html`)
+   - Optional ISBN field
+   - Uses `layouts/books/single.html` → `layouts/partials/book.html`
+   - Displays "Date Read" instead of publication date
 
 ### Custom Layouts
+- **Override Hierarchy**: Custom layouts in `layouts/` override theme templates from `themes/coder/`
 - Book reviews use custom templates in `layouts/books/` and `layouts/partials/`:
-  - `book.html`: Main book template
-  - `authors.html`: Author display
-  - `rating.html`: Rating display
-  - `tags.html`: Tag display
+  - `single.html`: Defines book page structure, delegates to `book.html` partial
+  - `book.html`: Main book content template with author, date read, and rating
+  - `authors.html`: Author display partial
+  - `rating.html`: Rating display partial
+  - `tags.html`: Tag display partial
+- Posts use `layouts/partials/post.html` for custom formatting
 
 ### Taxonomies
 - **authors**: Used primarily for book reviews
@@ -70,8 +105,10 @@ hugo new books/book-name.md
 4. CNAME file in `/docs` configures custom domain
 
 ### Theme Customization
-- Using "coder" theme with custom CSS in `static/css/main.css`
-- Custom book review layouts extend the base theme
+- Using "coder" theme (located in `themes/coder/`)
+- Custom CSS in `static/css/main.css` (referenced in config.toml)
+- Custom layouts in `layouts/` override theme defaults
+- Site configuration: [config.toml](config.toml) includes theme params, menu structure, and social links
 
 ## Writing Style Guidelines
 
@@ -104,11 +141,23 @@ hugo new books/book-name.md
 - **TIL Posts**: Short posts about specific discoveries or techniques
 
 ### Frontmatter Standards
+
+**Posts:**
 ```yaml
 date: YYYY-MM-DDTHH:MM:SSZ
 title: "Title in Quotes"
 tags: ["tag1", "tag2", "tag3"]
 draft: false
+```
+
+**Books:**
+```yaml
+title: "Book Title"
+date: YYYY-MM-DDTHH:MM:SSZ  # Date read
+author: "Author Name"       # String, not array
+tags: [tag1, tag2]
+rating: 4                   # Optional numeric rating
+isbn: "1234567890"          # Optional
 ```
 
 ### Tag Categories

@@ -9,3 +9,23 @@ node = "20"
 [env]
 # Hugo environment variables
 HUGO_ENV = "production"
+
+[tasks.dev]
+description = "Start Hugo development server with drafts"
+run = "hugo server -D"
+
+[tasks.build]
+description = "Build the site to docs/ directory"
+run = "hugo"
+
+[tasks.deploy]
+description = "Build, commit, and deploy to GitHub Pages"
+run = "./scripts/commit_push_deploy.sh"
+
+[tasks.deploy-msg]
+description = "Deploy with custom commit message"
+run = "./scripts/commit_push_deploy.sh \"$1\""
+
+[tasks.find-warnings]
+description = "Find posts with warning-prefixed tags"
+run = "./scripts/find-warning-tags.sh"

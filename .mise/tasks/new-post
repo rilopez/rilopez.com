@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+#MISE description="Create a new blog post"
+
+if [ -z "$1" ]; then
+  echo "Error: Please provide a post title"
+  echo "Usage: mise run new-post <post-title>"
+  exit 1
+fi
+
+hugo new "posts/$1.md"
